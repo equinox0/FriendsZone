@@ -27,10 +27,10 @@ namespace FriendsZone.Droid
                 button.Text = isLogedIn().ToString() + prefs.GetString("Email", "");
             };
 
-            if(!isLogedIn()) {
+            //if(!isLogedIn()) {
                 Intent loginIntent = new Intent(this, typeof(Activities.LoginActivity));
                 StartActivity(loginIntent);
-            }
+            //}
 		}
 
         private bool isLogedIn()
