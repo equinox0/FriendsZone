@@ -1,0 +1,12 @@
+FriendsZone.Droid.MainActivity, FriendsZone.Droid;md5903ed73810c20bb1edf685a4a6e0d1aa.MainActivity
+FriendsZone.Droid.MainActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5903ed73810c20bb1edf685a4a6e0d1aa.MainActivity
+FriendsZone.Droid.MainActivity;md5903ed73810c20bb1edf685a4a6e0d1aa.MainActivity
+friendszone.droid.MainActivity;md5903ed73810c20bb1edf685a4a6e0d1aa.MainActivity
+FriendsZone.Droid.Activities.LoginActivity, FriendsZone.Droid;md57d71a28de70112b3d338c1ad6194a120.LoginActivity
+FriendsZone.Droid.Activities.LoginActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57d71a28de70112b3d338c1ad6194a120.LoginActivity
+FriendsZone.Droid.Activities.LoginActivity;md57d71a28de70112b3d338c1ad6194a120.LoginActivity
+friendszone.droid.activities.LoginActivity;md57d71a28de70112b3d338c1ad6194a120.LoginActivity
+FriendsZone.Droid.Activities.RegisterActivity, FriendsZone.Droid;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
+FriendsZone.Droid.Activities.RegisterActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
+FriendsZone.Droid.Activities.RegisterActivity;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
+friendszone.droid.activities.RegisterActivity;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity

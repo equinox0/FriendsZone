@@ -3,40 +3,33 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:text="Login (e-mail)"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+    <EditText
+        android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
-    <AutoCompleteTextView
+        android:id="@+id/textEmail"
+        android:hint="Email" />
+    <EditText
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/autoCompleteTextView1" />
-    <TextView
-        android:text="Hasło"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
-    <AutoCompleteTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/autoCompleteTextView2" />
+        android:id="@+id/textPassword"
+        android:hint="Hasło" />
     <Button
         android:text="Zaloguj"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:id="@+id/buttonLogin" />
     <Button
         android:text="Zarejestruj"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/buttonRegister" />
     <Button
         android:text="Przypomnienie hasła"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
-        android:layout_marginTop="242.0dp" />
+        android:layout_marginTop="242.0dp"
+        android:enabled="false" />
 </LinearLayout>
