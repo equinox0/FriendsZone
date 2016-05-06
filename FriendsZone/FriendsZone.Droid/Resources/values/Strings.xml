@@ -2,4 +2,7 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">FriendsZone.Droid</string>
+  <string name="not_loged_in">Nie jesteś zalogowany</string>
+  <string name="btn_login">Zaloguj</string>
+  <string name="btn_logout">Wyloguj</string>
 </resources>

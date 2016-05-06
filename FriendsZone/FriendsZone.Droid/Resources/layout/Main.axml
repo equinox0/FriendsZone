@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <TextView
-        android:text="Nie jesteś zalogowany"
+        android:text="@string/not_loged_in"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/labelStatus" />
     <Button
-        android:id="@+id/buttonMap"
+        android:text="Mapa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tutaj kiedyś będzie mapa ;)"
-        android:enabled="false" />
+        android:id="@+id/buttonMap" />
+<!--<Button
+        android:text="Grupy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGroups" />
     <Button
-        android:id="@+id/buttonLogout"
+        android:text="Miejsca"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Wyloguj"
-        android:enabled="false" />
+        android:id="@+id/buttonSpots" />
+    <Button
+        android:text="Ludzie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPeople" />
+    <Button
+        android:text="Wydarzenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonEvents" />
+    <Button
+        android:text="Ustawienia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSettings" />-->
+    <Button
+        android:text="@string/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLog" />
 </LinearLayout>

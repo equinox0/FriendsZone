@@ -1,1 +1,25 @@
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:text="Nie jesteś zalogowany" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/labelStatus" /><Button android:id="@+id/buttonMap" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tutaj kiedyś będzie mapa ;)" android:enabled="false" /><Button android:id="@+id/buttonLogout" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Wyloguj" android:enabled="false" /></LinearLayout>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:text="@string/not_loged_in" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/labelStatus" /><Button android:text="Mapa" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/buttonMap" /><!--<Button
+        android:text="Grupy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGroups" />
+    <Button
+        android:text="Miejsca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSpots" />
+    <Button
+        android:text="Ludzie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPeople" />
+    <Button
+        android:text="Wydarzenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonEvents" />
+    <Button
+        android:text="Ustawienia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSettings" />--><Button android:text="@string/btn_login" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/buttonLog" /></LinearLayout>

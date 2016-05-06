@@ -14,7 +14,7 @@ namespace FriendsZone.Droid
 	{
 
         Button buttonMap;
-        Button buttonLogout;
+        Button buttonLog;
 
         protected override void OnCreate (Bundle bundle)
 		{
@@ -23,12 +23,13 @@ namespace FriendsZone.Droid
             SetContentView(Resource.Layout.Main);
 
             buttonMap = FindViewById<Button>(Resource.Id.buttonMap);
-            buttonLogout = FindViewById<Button>(Resource.Id.buttonLogout);
+            buttonLog = FindViewById<Button>(Resource.Id.buttonLog);
 
             if (!isLogedIn())
             {
+                buttonLog.Text = Resources.GetString(Resource.String.btn_logout);
                 Intent loginIntent = new Intent(this, typeof(Activities.LoginActivity));
-                StartActivity(loginIntent);
+                StartActivity(loginIntent);           
             }
 
             buttonMap.Click += delegate
@@ -37,13 +38,22 @@ namespace FriendsZone.Droid
                 StartActivity(mapIntent);
             };
 
-            buttonLogout.Click += delegate
+
+            buttonLog.Click += delegate
             {
-                var prefs = this.GetSharedPreferences("User.data", FileCreationMode.Private);
-                prefs.Edit().Clear().Commit();
-                OnResume();
+                if (buttonLog.Text == Resources.GetString(Resource.String.btn_logout))
+                {
+                    var prefs = this.GetSharedPreferences("User.data", FileCreationMode.Private);
+                    prefs.Edit().Clear().Commit();
+                    OnResume();
+                }
+                else if (buttonLog.Text == Resources.GetString(Resource.String.btn_login))
+                {
+                    Intent loginIntent = new Intent(this, typeof(Activities.LoginActivity));
+                    StartActivity(loginIntent);
+                }
             };
-		}
+        }
 
         protected override void OnResume()
         {
@@ -51,15 +61,16 @@ namespace FriendsZone.Droid
 
             if (isLogedIn())
             {
+                buttonLog.Text = Resources.GetString(Resource.String.btn_logout);
                 buttonMap.Enabled = true;
-                buttonLogout.Enabled = true;
+                buttonLog.Enabled = true;
                 var prefs = this.GetSharedPreferences("User.data", FileCreationMode.Private);
                 FindViewById<TextView>(Resource.Id.labelStatus).Text = prefs.GetString("Name", "") + " " + prefs.GetString("Surname", "");
             } else
             {
+                buttonLog.Text = Resources.GetString(Resource.String.btn_login);
                 buttonMap.Enabled = false;
-                buttonLogout.Enabled = false;
-                FindViewById<TextView>(Resource.Id.labelStatus).Text = "Nie jesteś zalogowany";
+                FindViewById<TextView>(Resource.Id.labelStatus).Text = Resources.GetString(Resource.String.not_loged_in);
             }
         }
 

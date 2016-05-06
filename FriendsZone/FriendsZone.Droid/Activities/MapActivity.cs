@@ -1,19 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-using Android.App;
-using Android.Content;
+using Android.Support.V4.App;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Content;
+using Android.Gms.Maps;
+//using Android.App;
 
 namespace FriendsZone.Droid.Activities
 {
-    [Activity(Label = "MapActivity")]
-    public class MapActivity : Activity
+    [Android.App.Activity(Label = "Mapa")]
+    public class MapActivity : FragmentActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -21,6 +16,18 @@ namespace FriendsZone.Droid.Activities
 
             // Create your application here
             SetContentView(Resource.Layout.Map);
+
+            SupportMapFragment mapFrag = (SupportMapFragment)SupportFragmentManager.FindFragmentById(Resource.Id.map);
+            if (mapFrag != null)
+            {
+                GoogleMap map = mapFrag.Map;
+                if (map != null)
+                {
+                    map.UiSettings.ZoomControlsEnabled = true;
+                    map.UiSettings.CompassEnabled = true;
+                    map.MapType = GoogleMap.MapTypeSatellite;
+                }
+            }
         }
     }
 }

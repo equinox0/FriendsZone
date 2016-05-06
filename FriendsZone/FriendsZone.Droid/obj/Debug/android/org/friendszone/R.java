@@ -176,37 +176,34 @@ containing a value of this type.
         public static final int icon=0x7f02001c;
     }
     public static final class id {
-        public static final int autoCompleteTextView1=0x7f060006;
-        public static final int button1=0x7f060008;
-        public static final int button2=0x7f060009;
-        public static final int button3=0x7f06000e;
-        public static final int buttonLogin=0x7f06000c;
-        public static final int buttonLogout=0x7f060011;
-        public static final int buttonMap=0x7f060010;
-        public static final int buttonRegister=0x7f06000d;
+        public static final int autoCompleteTextView1=0x7f060013;
+        public static final int button1=0x7f060014;
+        public static final int button3=0x7f060009;
+        public static final int buttonLog=0x7f06000c;
+        public static final int buttonLogin=0x7f060007;
+        public static final int buttonMap=0x7f06000b;
+        public static final int buttonRegister=0x7f060008;
         public static final int hybrid=0x7f060000;
-        public static final int labelStatus=0x7f06000f;
-        public static final int map=0x7f060012;
+        public static final int labelStatus=0x7f06000a;
+        public static final int map=0x7f06000d;
         public static final int none=0x7f060001;
         public static final int normal=0x7f060002;
         public static final int satellite=0x7f060003;
         public static final int terrain=0x7f060004;
-        public static final int textEmail=0x7f06000a;
-        public static final int textName=0x7f060015;
-        public static final int textPassword=0x7f06000b;
-        public static final int textPassword1=0x7f060013;
-        public static final int textPassword2=0x7f060014;
-        public static final int textSurname=0x7f060016;
-        public static final int textView1=0x7f060005;
-        public static final int view1=0x7f060007;
+        public static final int textEmail=0x7f060005;
+        public static final int textName=0x7f060010;
+        public static final int textPassword=0x7f060006;
+        public static final int textPassword1=0x7f06000e;
+        public static final int textPassword2=0x7f06000f;
+        public static final int textSurname=0x7f060011;
+        public static final int textView1=0x7f060012;
     }
     public static final class layout {
-        public static final int firstgroups=0x7f030000;
-        public static final int login=0x7f030001;
-        public static final int main=0x7f030002;
-        public static final int map=0x7f030003;
-        public static final int register=0x7f030004;
-        public static final int resetpassword=0x7f030005;
+        public static final int login=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int map=0x7f030002;
+        public static final int register=0x7f030003;
+        public static final int resetpassword=0x7f030004;
     }
     public static final class string {
         public static final int app_name=0x7f05001a;
@@ -233,6 +230,8 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static final int auth_client_using_bad_version_title=0x7f050013;
+        public static final int btn_login=0x7f05001c;
+        public static final int btn_logout=0x7f05001d;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -301,6 +300,7 @@ containing a value of this type.
          */
         public static final int common_signin_button_text_long=0x7f050012;
         public static final int hello=0x7f050019;
+        public static final int not_loged_in=0x7f05001b;
     }
     public static final class styleable {
         /** Attributes that can be used with a MapAttrs.

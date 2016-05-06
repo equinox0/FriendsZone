@@ -2,7 +2,7 @@ package md57d71a28de70112b3d338c1ad6194a120;
 
 
 public class MapActivity
-	extends android.app.Activity
+	extends android.support.v4.app.FragmentActivity
 	implements
 		mono.android.IGCUserPeer
 {
