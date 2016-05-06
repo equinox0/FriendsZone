@@ -81,9 +81,11 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"FriendsZone.Droid.dll",
 		"FriendsZone.dll",
+		"GooglePlayServicesFroyoLib.dll",
 		"Newtonsoft.Json.dll",
 		"SQLite-net.dll",
 		"SQLitePCL.raw.dll",
+		"Xamarin.Android.Support.v4.dll",
 		"System.Collections.Concurrent.dll",
 		"System.Collections.dll",
 		"System.ComponentModel.Annotations.dll",

@@ -13,7 +13,7 @@ using Newtonsoft.Json;
 
 namespace FriendsZone.Droid.Activities
 {
-    [Activity(Label = "LoginActivity")]
+    [Activity(Label = "Zaloguj siê")]
     public class LoginActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

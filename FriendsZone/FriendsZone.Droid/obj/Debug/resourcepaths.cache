@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <AdditionalAndroidResourcePaths />
-  <AdditionalJavaLibraryReferences />
+  <AdditionalAndroidResourcePaths>
+    <AdditionalAndroidResourcePath>C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\Components\googleplayservicesfroyo-12.0.5\lib\android\12\content\google-play-services\libproject\google-play-services_lib</AdditionalAndroidResourcePath>
+  </AdditionalAndroidResourcePaths>
+  <AdditionalJavaLibraryReferences>
+    <AdditionalJavaLibraryReference>C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\Components\googleplayservicesfroyo-12.0.5\lib\android\12\content\google-play-services\libproject\google-play-services_lib\libs\google-play-services.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\Jan Kowalski\AppData\Local\Xamarin\Android.Support.v4\20\content\support\v4\android-support-v4.jar</AdditionalJavaLibraryReference>
+  </AdditionalJavaLibraryReferences>
   <AdditionalNativeLibraryReferences />
 </Paths>

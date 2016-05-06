@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="FriendsZone.Droid">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.friendszone" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="15" />
+  <!-- Google Maps for Android v2 requires OpenGL ES v2 -->
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <!-- We need to be able to download map tiles and access Google Play Services-->
   <uses-permission android:name="android.permission.INTERNET" />
+  <!-- Allow the application to access Google web-based services. -->
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+  <!-- Google Maps for Android v2 will cache map tiles on external storage -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <!-- Google Maps for Android v2 needs this permission so that it may check the connection state as it must download data -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- Permission to receive remote notifications from Google Play Services -->
+  <!-- Notice here that we have the package name of our application as a prefix on the permissions. -->
+  <uses-permission android:name="org.friendszone.permission.MAPS_RECEIVE" />
+  <permission android:name="org.friendszone.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+  <!-- These are optional, but recommended. They will allow Maps to use the My Location provider. -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:name="mono.android.app.Application" android:allowBackup="true" android:label="FriendsZone.Droid" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="FriendsZone" android:name="mono.android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <!-- Put your Google Maps V2 API Key here. -->
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBRhQ6PZBl6EKN0DiRw4nN8fXChZmny_7g " />
+    <!--<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />-->
     <activity android:icon="@drawable/icon" android:label="FriendsZone.Droid" android:name="md5903ed73810c20bb1edf685a4a6e0d1aa.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="LoginActivity" android:name="md57d71a28de70112b3d338c1ad6194a120.LoginActivity" />
+    <activity android:label="Zaloguj się" android:name="md57d71a28de70112b3d338c1ad6194a120.LoginActivity" />
+    <activity android:label="MapActivity" android:name="md57d71a28de70112b3d338c1ad6194a120.MapActivity" />
     <activity android:label="Rejestracja" android:name="md57d71a28de70112b3d338c1ad6194a120.RegisterActivity" />
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="FriendsZone.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="org.friendszone.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.FriendsZone.Droid" />
+        <category android:name="mono.android.intent.category.SEPPUKU.org.friendszone" />
       </intent-filter>
     </receiver>
   </application>

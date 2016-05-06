@@ -1,5 +1,6 @@
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\FriendsZone.Droid.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\FriendsZone.dll
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\GooglePlayServicesFroyoLib.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\Mono.Android.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\mscorlib.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\Newtonsoft.Json.dll
@@ -8,6 +9,7 @@ C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZon
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\System.Core.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\System.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\System.Collections.Concurrent.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\System.Collections.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\assemblies\System.ComponentModel.Annotations.dll

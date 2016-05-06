@@ -6,7 +6,187 @@ FriendsZone.Droid.Activities.LoginActivity, FriendsZone.Droid;md57d71a28de70112b
 FriendsZone.Droid.Activities.LoginActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57d71a28de70112b3d338c1ad6194a120.LoginActivity
 FriendsZone.Droid.Activities.LoginActivity;md57d71a28de70112b3d338c1ad6194a120.LoginActivity
 friendszone.droid.activities.LoginActivity;md57d71a28de70112b3d338c1ad6194a120.LoginActivity
+FriendsZone.Droid.Activities.MapActivity, FriendsZone.Droid;md57d71a28de70112b3d338c1ad6194a120.MapActivity
+FriendsZone.Droid.Activities.MapActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57d71a28de70112b3d338c1ad6194a120.MapActivity
+FriendsZone.Droid.Activities.MapActivity;md57d71a28de70112b3d338c1ad6194a120.MapActivity
+friendszone.droid.activities.MapActivity;md57d71a28de70112b3d338c1ad6194a120.MapActivity
 FriendsZone.Droid.Activities.RegisterActivity, FriendsZone.Droid;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
 FriendsZone.Droid.Activities.RegisterActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
 FriendsZone.Droid.Activities.RegisterActivity;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
 friendszone.droid.activities.RegisterActivity;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
+Android.Gms.AppStates.IOnSignOutCompleteListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.appstate.OnSignOutCompleteListenerImplementor
+Android.Gms.AppStates.IOnSignOutCompleteListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.appstate.OnSignOutCompleteListenerImplementor
+Android.Gms.AppStates.IOnSignOutCompleteListenerImplementor;mono.com.google.android.gms.appstate.OnSignOutCompleteListenerImplementor
+mono.com.google.android.gms.appstate.OnSignOutCompleteListenerImplementor;mono.com.google.android.gms.appstate.OnSignOutCompleteListenerImplementor
+Android.Gms.AppStates.IOnStateDeletedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.appstate.OnStateDeletedListenerImplementor
+Android.Gms.AppStates.IOnStateDeletedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.appstate.OnStateDeletedListenerImplementor
+Android.Gms.AppStates.IOnStateDeletedListenerImplementor;mono.com.google.android.gms.appstate.OnStateDeletedListenerImplementor
+mono.com.google.android.gms.appstate.OnStateDeletedListenerImplementor;mono.com.google.android.gms.appstate.OnStateDeletedListenerImplementor
+Android.Gms.AppStates.IOnStateListLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.appstate.OnStateListLoadedListenerImplementor
+Android.Gms.AppStates.IOnStateListLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.appstate.OnStateListLoadedListenerImplementor
+Android.Gms.AppStates.IOnStateListLoadedListenerImplementor;mono.com.google.android.gms.appstate.OnStateListLoadedListenerImplementor
+mono.com.google.android.gms.appstate.OnStateListLoadedListenerImplementor;mono.com.google.android.gms.appstate.OnStateListLoadedListenerImplementor
+Android.Gms.AppStates.IOnStateLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.appstate.OnStateLoadedListenerImplementor
+Android.Gms.AppStates.IOnStateLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.appstate.OnStateLoadedListenerImplementor
+Android.Gms.AppStates.IOnStateLoadedListenerImplementor;mono.com.google.android.gms.appstate.OnStateLoadedListenerImplementor
+mono.com.google.android.gms.appstate.OnStateLoadedListenerImplementor;mono.com.google.android.gms.appstate.OnStateLoadedListenerImplementor
+Android.Gms.Common.IGooglePlayServicesClientOnConnectionFailedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.common.GooglePlayServicesClient_OnConnectionFailedListenerImplementor
+Android.Gms.Common.IGooglePlayServicesClientOnConnectionFailedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.common.GooglePlayServicesClient_OnConnectionFailedListenerImplementor
+Android.Gms.Common.IGooglePlayServicesClientOnConnectionFailedListenerImplementor;mono.com.google.android.gms.common.GooglePlayServicesClient_OnConnectionFailedListenerImplementor
+mono.com.google.android.gms.common.GooglePlayServicesClient_OnConnectionFailedListenerImplementor;mono.com.google.android.gms.common.GooglePlayServicesClient_OnConnectionFailedListenerImplementor
+Android.Gms.Common.Images.ImageManager/IOnImageLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Images.ImageManager+IOnImageLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Images.ImageManager.IOnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Games.Achievement.IOnAchievementUpdatedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.achievement.OnAchievementUpdatedListenerImplementor
+Android.Gms.Games.Achievement.IOnAchievementUpdatedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.achievement.OnAchievementUpdatedListenerImplementor
+Android.Gms.Games.Achievement.IOnAchievementUpdatedListenerImplementor;mono.com.google.android.gms.games.achievement.OnAchievementUpdatedListenerImplementor
+mono.com.google.android.gms.games.achievement.OnAchievementUpdatedListenerImplementor;mono.com.google.android.gms.games.achievement.OnAchievementUpdatedListenerImplementor
+Android.Gms.Games.Achievement.IOnAchievementsLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.achievement.OnAchievementsLoadedListenerImplementor
+Android.Gms.Games.Achievement.IOnAchievementsLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.achievement.OnAchievementsLoadedListenerImplementor
+Android.Gms.Games.Achievement.IOnAchievementsLoadedListenerImplementor;mono.com.google.android.gms.games.achievement.OnAchievementsLoadedListenerImplementor
+mono.com.google.android.gms.games.achievement.OnAchievementsLoadedListenerImplementor;mono.com.google.android.gms.games.achievement.OnAchievementsLoadedListenerImplementor
+Android.Gms.Games.IOnGamesLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.OnGamesLoadedListenerImplementor
+Android.Gms.Games.IOnGamesLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.OnGamesLoadedListenerImplementor
+Android.Gms.Games.IOnGamesLoadedListenerImplementor;mono.com.google.android.gms.games.OnGamesLoadedListenerImplementor
+mono.com.google.android.gms.games.OnGamesLoadedListenerImplementor;mono.com.google.android.gms.games.OnGamesLoadedListenerImplementor
+Android.Gms.Games.IOnPlayersLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.OnPlayersLoadedListenerImplementor
+Android.Gms.Games.IOnPlayersLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.OnPlayersLoadedListenerImplementor
+Android.Gms.Games.IOnPlayersLoadedListenerImplementor;mono.com.google.android.gms.games.OnPlayersLoadedListenerImplementor
+mono.com.google.android.gms.games.OnPlayersLoadedListenerImplementor;mono.com.google.android.gms.games.OnPlayersLoadedListenerImplementor
+Android.Gms.Games.IOnSignOutCompleteListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.OnSignOutCompleteListenerImplementor
+Android.Gms.Games.IOnSignOutCompleteListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.OnSignOutCompleteListenerImplementor
+Android.Gms.Games.IOnSignOutCompleteListenerImplementor;mono.com.google.android.gms.games.OnSignOutCompleteListenerImplementor
+mono.com.google.android.gms.games.OnSignOutCompleteListenerImplementor;mono.com.google.android.gms.games.OnSignOutCompleteListenerImplementor
+Android.Gms.Games.LeaderBoard.IOnScoreSubmittedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.leaderboard.OnScoreSubmittedListenerImplementor
+Android.Gms.Games.LeaderBoard.IOnScoreSubmittedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.leaderboard.OnScoreSubmittedListenerImplementor
+Android.Gms.Games.LeaderBoard.IOnScoreSubmittedListenerImplementor;mono.com.google.android.gms.games.leaderboard.OnScoreSubmittedListenerImplementor
+mono.com.google.android.gms.games.leaderboard.OnScoreSubmittedListenerImplementor;mono.com.google.android.gms.games.leaderboard.OnScoreSubmittedListenerImplementor
+Android.Gms.Games.MultiPlayer.IOnInvitationReceivedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.multiplayer.OnInvitationReceivedListenerImplementor
+Android.Gms.Games.MultiPlayer.IOnInvitationReceivedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.multiplayer.OnInvitationReceivedListenerImplementor
+Android.Gms.Games.MultiPlayer.IOnInvitationReceivedListenerImplementor;mono.com.google.android.gms.games.multiplayer.OnInvitationReceivedListenerImplementor
+mono.com.google.android.gms.games.multiplayer.OnInvitationReceivedListenerImplementor;mono.com.google.android.gms.games.multiplayer.OnInvitationReceivedListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRealTimeMessageReceivedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.multiplayer.realtime.RealTimeMessageReceivedListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRealTimeMessageReceivedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.multiplayer.realtime.RealTimeMessageReceivedListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRealTimeMessageReceivedListenerImplementor;mono.com.google.android.gms.games.multiplayer.realtime.RealTimeMessageReceivedListenerImplementor
+mono.com.google.android.gms.games.multiplayer.realtime.RealTimeMessageReceivedListenerImplementor;mono.com.google.android.gms.games.multiplayer.realtime.RealTimeMessageReceivedListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRealTimeReliableMessageSentListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.multiplayer.realtime.RealTimeReliableMessageSentListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRealTimeReliableMessageSentListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.multiplayer.realtime.RealTimeReliableMessageSentListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRealTimeReliableMessageSentListenerImplementor;mono.com.google.android.gms.games.multiplayer.realtime.RealTimeReliableMessageSentListenerImplementor
+mono.com.google.android.gms.games.multiplayer.realtime.RealTimeReliableMessageSentListenerImplementor;mono.com.google.android.gms.games.multiplayer.realtime.RealTimeReliableMessageSentListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRoomStatusUpdateListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.multiplayer.realtime.RoomStatusUpdateListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRoomStatusUpdateListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.multiplayer.realtime.RoomStatusUpdateListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRoomStatusUpdateListenerImplementor;mono.com.google.android.gms.games.multiplayer.realtime.RoomStatusUpdateListenerImplementor
+mono.com.google.android.gms.games.multiplayer.realtime.RoomStatusUpdateListenerImplementor;mono.com.google.android.gms.games.multiplayer.realtime.RoomStatusUpdateListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRoomUpdateListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.games.multiplayer.realtime.RoomUpdateListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRoomUpdateListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.games.multiplayer.realtime.RoomUpdateListenerImplementor
+Android.Gms.Games.Multiplayer.Realtime.IRoomUpdateListenerImplementor;mono.com.google.android.gms.games.multiplayer.realtime.RoomUpdateListenerImplementor
+mono.com.google.android.gms.games.multiplayer.realtime.RoomUpdateListenerImplementor;mono.com.google.android.gms.games.multiplayer.realtime.RoomUpdateListenerImplementor
+Android.Gms.Location.ILocationListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.location.LocationListenerImplementor
+Android.Gms.Location.ILocationListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.location.LocationListenerImplementor
+Android.Gms.Location.ILocationListenerImplementor;mono.com.google.android.gms.location.LocationListenerImplementor
+mono.com.google.android.gms.location.LocationListenerImplementor;mono.com.google.android.gms.location.LocationListenerImplementor
+Android.Gms.Location.LocationClient/IOnAddGeofencesResultListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.location.LocationClient_OnAddGeofencesResultListenerImplementor
+Android.Gms.Location.LocationClient+IOnAddGeofencesResultListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.location.LocationClient_OnAddGeofencesResultListenerImplementor
+Android.Gms.Location.LocationClient.IOnAddGeofencesResultListenerImplementor;mono.com.google.android.gms.location.LocationClient_OnAddGeofencesResultListenerImplementor
+mono.com.google.android.gms.location.LocationClient_OnAddGeofencesResultListenerImplementor;mono.com.google.android.gms.location.LocationClient_OnAddGeofencesResultListenerImplementor
+Android.Gms.Location.LocationClient/IOnRemoveGeofencesResultListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.location.LocationClient_OnRemoveGeofencesResultListenerImplementor
+Android.Gms.Location.LocationClient+IOnRemoveGeofencesResultListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.location.LocationClient_OnRemoveGeofencesResultListenerImplementor
+Android.Gms.Location.LocationClient.IOnRemoveGeofencesResultListenerImplementor;mono.com.google.android.gms.location.LocationClient_OnRemoveGeofencesResultListenerImplementor
+mono.com.google.android.gms.location.LocationClient_OnRemoveGeofencesResultListenerImplementor;mono.com.google.android.gms.location.LocationClient_OnRemoveGeofencesResultListenerImplementor
+Android.Gms.Maps.GoogleMap/IOnCameraChangeListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor
+Android.Gms.Maps.GoogleMap+IOnCameraChangeListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor
+Android.Gms.Maps.GoogleMap.IOnCameraChangeListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor
+mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor
+Android.Gms.Maps.GoogleMap/IOnInfoWindowClickListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.GoogleMap_OnInfoWindowClickListenerImplementor
+Android.Gms.Maps.GoogleMap+IOnInfoWindowClickListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnInfoWindowClickListenerImplementor
+Android.Gms.Maps.GoogleMap.IOnInfoWindowClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnInfoWindowClickListenerImplementor
+mono.com.google.android.gms.maps.GoogleMap_OnInfoWindowClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnInfoWindowClickListenerImplementor
+Android.Gms.Maps.GoogleMap/IOnMapClickListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.GoogleMap_OnMapClickListenerImplementor
+Android.Gms.Maps.GoogleMap+IOnMapClickListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnMapClickListenerImplementor
+Android.Gms.Maps.GoogleMap.IOnMapClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMapClickListenerImplementor
+mono.com.google.android.gms.maps.GoogleMap_OnMapClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMapClickListenerImplementor
+Android.Gms.Maps.GoogleMap/IOnMapLongClickListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.GoogleMap_OnMapLongClickListenerImplementor
+Android.Gms.Maps.GoogleMap+IOnMapLongClickListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnMapLongClickListenerImplementor
+Android.Gms.Maps.GoogleMap.IOnMapLongClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMapLongClickListenerImplementor
+mono.com.google.android.gms.maps.GoogleMap_OnMapLongClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMapLongClickListenerImplementor
+Android.Gms.Maps.GoogleMap/IOnMarkerClickListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.GoogleMap_OnMarkerClickListenerImplementor
+Android.Gms.Maps.GoogleMap+IOnMarkerClickListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnMarkerClickListenerImplementor
+Android.Gms.Maps.GoogleMap.IOnMarkerClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMarkerClickListenerImplementor
+mono.com.google.android.gms.maps.GoogleMap_OnMarkerClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMarkerClickListenerImplementor
+Android.Gms.Maps.GoogleMap/IOnMarkerDragListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.GoogleMap_OnMarkerDragListenerImplementor
+Android.Gms.Maps.GoogleMap+IOnMarkerDragListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnMarkerDragListenerImplementor
+Android.Gms.Maps.GoogleMap.IOnMarkerDragListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMarkerDragListenerImplementor
+mono.com.google.android.gms.maps.GoogleMap_OnMarkerDragListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMarkerDragListenerImplementor
+Android.Gms.Maps.GoogleMap/IOnMyLocationButtonClickListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.GoogleMap_OnMyLocationButtonClickListenerImplementor
+Android.Gms.Maps.GoogleMap+IOnMyLocationButtonClickListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnMyLocationButtonClickListenerImplementor
+Android.Gms.Maps.GoogleMap.IOnMyLocationButtonClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMyLocationButtonClickListenerImplementor
+mono.com.google.android.gms.maps.GoogleMap_OnMyLocationButtonClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMyLocationButtonClickListenerImplementor
+Android.Gms.Maps.GoogleMap/IOnMyLocationChangeListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.GoogleMap_OnMyLocationChangeListenerImplementor
+Android.Gms.Maps.GoogleMap+IOnMyLocationChangeListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnMyLocationChangeListenerImplementor
+Android.Gms.Maps.GoogleMap.IOnMyLocationChangeListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMyLocationChangeListenerImplementor
+mono.com.google.android.gms.maps.GoogleMap_OnMyLocationChangeListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnMyLocationChangeListenerImplementor
+Android.Gms.Maps.ILocationSourceOnLocationChangedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.maps.LocationSource_OnLocationChangedListenerImplementor
+Android.Gms.Maps.ILocationSourceOnLocationChangedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.LocationSource_OnLocationChangedListenerImplementor
+Android.Gms.Maps.ILocationSourceOnLocationChangedListenerImplementor;mono.com.google.android.gms.maps.LocationSource_OnLocationChangedListenerImplementor
+mono.com.google.android.gms.maps.LocationSource_OnLocationChangedListenerImplementor;mono.com.google.android.gms.maps.LocationSource_OnLocationChangedListenerImplementor
+Android.Gms.Panorama.PanoramaClient/IOnPanoramaInfoLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.panorama.PanoramaClient_OnPanoramaInfoLoadedListenerImplementor
+Android.Gms.Panorama.PanoramaClient+IOnPanoramaInfoLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.panorama.PanoramaClient_OnPanoramaInfoLoadedListenerImplementor
+Android.Gms.Panorama.PanoramaClient.IOnPanoramaInfoLoadedListenerImplementor;mono.com.google.android.gms.panorama.PanoramaClient_OnPanoramaInfoLoadedListenerImplementor
+mono.com.google.android.gms.panorama.PanoramaClient_OnPanoramaInfoLoadedListenerImplementor;mono.com.google.android.gms.panorama.PanoramaClient_OnPanoramaInfoLoadedListenerImplementor
+Android.Gms.Plus.PlusClient/IOnAccessRevokedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.plus.PlusClient_OnAccessRevokedListenerImplementor
+Android.Gms.Plus.PlusClient+IOnAccessRevokedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.plus.PlusClient_OnAccessRevokedListenerImplementor
+Android.Gms.Plus.PlusClient.IOnAccessRevokedListenerImplementor;mono.com.google.android.gms.plus.PlusClient_OnAccessRevokedListenerImplementor
+mono.com.google.android.gms.plus.PlusClient_OnAccessRevokedListenerImplementor;mono.com.google.android.gms.plus.PlusClient_OnAccessRevokedListenerImplementor
+Android.Gms.Plus.PlusClient/IOnMomentsLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.plus.PlusClient_OnMomentsLoadedListenerImplementor
+Android.Gms.Plus.PlusClient+IOnMomentsLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.plus.PlusClient_OnMomentsLoadedListenerImplementor
+Android.Gms.Plus.PlusClient.IOnMomentsLoadedListenerImplementor;mono.com.google.android.gms.plus.PlusClient_OnMomentsLoadedListenerImplementor
+mono.com.google.android.gms.plus.PlusClient_OnMomentsLoadedListenerImplementor;mono.com.google.android.gms.plus.PlusClient_OnMomentsLoadedListenerImplementor
+Android.Gms.Plus.PlusClient/IOnPeopleLoadedListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.plus.PlusClient_OnPeopleLoadedListenerImplementor
+Android.Gms.Plus.PlusClient+IOnPeopleLoadedListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.plus.PlusClient_OnPeopleLoadedListenerImplementor
+Android.Gms.Plus.PlusClient.IOnPeopleLoadedListenerImplementor;mono.com.google.android.gms.plus.PlusClient_OnPeopleLoadedListenerImplementor
+mono.com.google.android.gms.plus.PlusClient_OnPeopleLoadedListenerImplementor;mono.com.google.android.gms.plus.PlusClient_OnPeopleLoadedListenerImplementor
+Android.Gms.Plus.PlusOneButton/IOnPlusOneClickListenerImplementor, GooglePlayServicesFroyoLib;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
+Android.Gms.Plus.PlusOneButton+IOnPlusOneClickListenerImplementor, GooglePlayServicesFroyoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
+Android.Gms.Plus.PlusOneButton.IOnPlusOneClickListenerImplementor;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
+mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
+Android.Support.V4.Content.Loader/IOnLoadCompleteListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+Android.Support.V4.Content.Loader+IOnLoadCompleteListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+Android.Support.V4.Content.Loader.IOnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.Widget.DrawerLayout/IDrawerListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V4.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V4.Widget.DrawerLayout.IDrawerListenerImplementor;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V4.Widget.SlidingPaneLayout/IPanelSlideListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+Android.Support.V4.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+Android.Support.V4.Widget.SlidingPaneLayout.IPanelSlideListenerImplementor;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+Android.Support.V4.App.FragmentManager/IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.View.ActionProvider/ISubUiVisibilityListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider.ISubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider/IVisibilityListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider+IVisibilityListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider.IVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorListenerImplementor;mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor
+mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor;mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor
+Android.Support.V4.View.MenuItemCompat/IOnActionExpandListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor
+Android.Support.V4.View.MenuItemCompat+IOnActionExpandListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor
+Android.Support.V4.View.MenuItemCompat.IOnActionExpandListenerImplementor;mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor
+mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor;mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor
+Android.Support.V4.Widget.SwipeRefreshLayout/IOnRefreshListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor
+Android.Support.V4.Widget.SwipeRefreshLayout+IOnRefreshListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor
+Android.Support.V4.Widget.SwipeRefreshLayout.IOnRefreshListenerImplementor;mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor
+mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor;mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor
