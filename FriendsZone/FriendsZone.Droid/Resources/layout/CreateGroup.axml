@@ -20,4 +20,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/textPassword"
         android:hint="Hasło" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerColors"
+        android:prompt="@string/color_spinner_prompt"
+        android:minHeight="50dp" />
+    <Button
+        android:text="Stwórz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCreateGroup" />
 </LinearLayout>

@@ -8,6 +8,11 @@
 package org.friendszone;
 
 public final class R {
+    public static final class array {
+        /**  Yellow - 60.0 
+         */
+        public static final int colors_array=0x7f060000;
+    }
     public static final class attr {
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
@@ -176,32 +181,33 @@ containing a value of this type.
         public static final int icon=0x7f02001c;
     }
     public static final class id {
-        public static final int autoCompleteTextView1=0x7f060018;
-        public static final int button1=0x7f060019;
-        public static final int button3=0x7f06000e;
-        public static final int buttonCreateGroup=0x7f060009;
-        public static final int buttonGroups=0x7f060011;
-        public static final int buttonLog=0x7f060012;
-        public static final int buttonLogin=0x7f06000c;
-        public static final int buttonMap=0x7f060010;
-        public static final int buttonRegister=0x7f06000d;
-        public static final int buttonSearchGroups=0x7f060007;
-        public static final int buttonYourGroups=0x7f060008;
-        public static final int hybrid=0x7f060000;
-        public static final int labelStatus=0x7f06000f;
-        public static final int map=0x7f060013;
-        public static final int none=0x7f060001;
-        public static final int normal=0x7f060002;
-        public static final int satellite=0x7f060003;
-        public static final int terrain=0x7f060004;
-        public static final int textDescription=0x7f060006;
-        public static final int textEmail=0x7f06000a;
-        public static final int textName=0x7f060005;
-        public static final int textPassword=0x7f06000b;
-        public static final int textPassword1=0x7f060014;
-        public static final int textPassword2=0x7f060015;
-        public static final int textSurname=0x7f060016;
-        public static final int textView1=0x7f060017;
+        public static final int autoCompleteTextView1=0x7f070019;
+        public static final int button1=0x7f07001a;
+        public static final int button3=0x7f07000f;
+        public static final int buttonCreateGroup=0x7f070009;
+        public static final int buttonGroups=0x7f070012;
+        public static final int buttonLog=0x7f070013;
+        public static final int buttonLogin=0x7f07000d;
+        public static final int buttonMap=0x7f070011;
+        public static final int buttonRegister=0x7f07000e;
+        public static final int buttonSearchGroups=0x7f07000a;
+        public static final int buttonYourGroups=0x7f07000b;
+        public static final int hybrid=0x7f070000;
+        public static final int labelStatus=0x7f070010;
+        public static final int map=0x7f070014;
+        public static final int none=0x7f070001;
+        public static final int normal=0x7f070002;
+        public static final int satellite=0x7f070003;
+        public static final int spinnerColors=0x7f070008;
+        public static final int terrain=0x7f070004;
+        public static final int textDescription=0x7f070006;
+        public static final int textEmail=0x7f07000c;
+        public static final int textName=0x7f070005;
+        public static final int textPassword=0x7f070007;
+        public static final int textPassword1=0x7f070015;
+        public static final int textPassword2=0x7f070016;
+        public static final int textSurname=0x7f070017;
+        public static final int textView1=0x7f070018;
     }
     public static final class layout {
         public static final int creategroup=0x7f030000;
@@ -239,6 +245,7 @@ containing a value of this type.
         public static final int auth_client_using_bad_version_title=0x7f050013;
         public static final int btn_login=0x7f05001c;
         public static final int btn_logout=0x7f05001d;
+        public static final int color_spinner_prompt=0x7f05001e;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
