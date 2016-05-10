@@ -235,35 +235,47 @@ namespace FriendsZone.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060013
-			public const int autoCompleteTextView1 = 2131099667;
+			// aapt resource value: 0x7f060018
+			public const int autoCompleteTextView1 = 2131099672;
 			
-			// aapt resource value: 0x7f060014
-			public const int button1 = 2131099668;
+			// aapt resource value: 0x7f060019
+			public const int button1 = 2131099673;
 			
-			// aapt resource value: 0x7f060009
-			public const int button3 = 2131099657;
+			// aapt resource value: 0x7f06000e
+			public const int button3 = 2131099662;
+			
+			// aapt resource value: 0x7f06000a
+			public const int buttonCreateGroup = 2131099658;
+			
+			// aapt resource value: 0x7f060011
+			public const int buttonGroups = 2131099665;
+			
+			// aapt resource value: 0x7f060012
+			public const int buttonLog = 2131099666;
 			
 			// aapt resource value: 0x7f06000c
-			public const int buttonLog = 2131099660;
+			public const int buttonLogin = 2131099660;
 			
-			// aapt resource value: 0x7f060007
-			public const int buttonLogin = 2131099655;
+			// aapt resource value: 0x7f060010
+			public const int buttonMap = 2131099664;
 			
-			// aapt resource value: 0x7f06000b
-			public const int buttonMap = 2131099659;
+			// aapt resource value: 0x7f06000d
+			public const int buttonRegister = 2131099661;
 			
 			// aapt resource value: 0x7f060008
-			public const int buttonRegister = 2131099656;
+			public const int buttonSearchGroups = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int buttonYourGroups = 2131099657;
 			
 			// aapt resource value: 0x7f060000
 			public const int hybrid = 2131099648;
 			
-			// aapt resource value: 0x7f06000a
-			public const int labelStatus = 2131099658;
+			// aapt resource value: 0x7f06000f
+			public const int labelStatus = 2131099663;
 			
-			// aapt resource value: 0x7f06000d
-			public const int map = 2131099661;
+			// aapt resource value: 0x7f060013
+			public const int map = 2131099667;
 			
 			// aapt resource value: 0x7f060001
 			public const int none = 2131099649;
@@ -277,26 +289,29 @@ namespace FriendsZone.Droid
 			// aapt resource value: 0x7f060004
 			public const int terrain = 2131099652;
 			
-			// aapt resource value: 0x7f060005
-			public const int textEmail = 2131099653;
-			
-			// aapt resource value: 0x7f060010
-			public const int textName = 2131099664;
-			
 			// aapt resource value: 0x7f060006
-			public const int textPassword = 2131099654;
+			public const int textDescription = 2131099654;
 			
-			// aapt resource value: 0x7f06000e
-			public const int textPassword1 = 2131099662;
+			// aapt resource value: 0x7f06000b
+			public const int textEmail = 2131099659;
 			
-			// aapt resource value: 0x7f06000f
-			public const int textPassword2 = 2131099663;
+			// aapt resource value: 0x7f060005
+			public const int textName = 2131099653;
 			
-			// aapt resource value: 0x7f060011
-			public const int textSurname = 2131099665;
+			// aapt resource value: 0x7f060007
+			public const int textPassword = 2131099655;
 			
-			// aapt resource value: 0x7f060012
-			public const int textView1 = 2131099666;
+			// aapt resource value: 0x7f060014
+			public const int textPassword1 = 2131099668;
+			
+			// aapt resource value: 0x7f060015
+			public const int textPassword2 = 2131099669;
+			
+			// aapt resource value: 0x7f060016
+			public const int textSurname = 2131099670;
+			
+			// aapt resource value: 0x7f060017
+			public const int textView1 = 2131099671;
 			
 			static Id()
 			{
@@ -312,19 +327,25 @@ namespace FriendsZone.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Login = 2130903040;
+			public const int CreateGroup = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int GroupsMenu = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Map = 2130903042;
+			public const int Login = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Register = 2130903043;
+			public const int Main = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int ResetPassword = 2130903044;
+			public const int Map = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Register = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int ResetPassword = 2130903046;
 			
 			static Layout()
 			{

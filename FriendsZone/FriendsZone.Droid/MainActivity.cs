@@ -15,6 +15,7 @@ namespace FriendsZone.Droid
 
         Button buttonMap;
         Button buttonLog;
+        Button buttonGroups;
 
         protected override void OnCreate (Bundle bundle)
 		{
@@ -24,6 +25,7 @@ namespace FriendsZone.Droid
 
             buttonMap = FindViewById<Button>(Resource.Id.buttonMap);
             buttonLog = FindViewById<Button>(Resource.Id.buttonLog);
+            buttonGroups = FindViewById<Button>(Resource.Id.buttonGroups);
 
             if (!isLogedIn())
             {
@@ -53,6 +55,12 @@ namespace FriendsZone.Droid
                     StartActivity(loginIntent);
                 }
             };
+
+            buttonGroups.Click += delegate
+            {
+                Intent groupsMenuIntent = new Intent(this, typeof(Activities.Groups.GroupsMenuActivity));
+                StartActivity(groupsMenuIntent);
+            };
         }
 
         protected override void OnResume()
@@ -63,13 +71,14 @@ namespace FriendsZone.Droid
             {
                 buttonLog.Text = Resources.GetString(Resource.String.btn_logout);
                 buttonMap.Enabled = true;
-                buttonLog.Enabled = true;
+                buttonGroups.Enabled = true;
                 var prefs = this.GetSharedPreferences("User.data", FileCreationMode.Private);
                 FindViewById<TextView>(Resource.Id.labelStatus).Text = prefs.GetString("Name", "") + " " + prefs.GetString("Surname", "");
             } else
             {
                 buttonLog.Text = Resources.GetString(Resource.String.btn_login);
                 buttonMap.Enabled = false;
+                buttonGroups.Enabled = false;
                 FindViewById<TextView>(Resource.Id.labelStatus).Text = Resources.GetString(Resource.String.not_loged_in);
             }
         }

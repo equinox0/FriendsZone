@@ -14,12 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonMap" />
-<!--<Button
+    <Button
         android:text="Grupy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonGroups" />
-    <Button
+<!--   <Button
         android:text="Miejsca"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

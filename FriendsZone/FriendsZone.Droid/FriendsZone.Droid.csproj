@@ -68,6 +68,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\Groups\CreateGroupActivity.cs" />
+    <Compile Include="Activities\Groups\GroupsMenuActivity.cs" />
+    <Compile Include="Activities\Groups\SearchGroupsActivity.cs" />
+    <Compile Include="Activities\Groups\YourGroupsActivity.cs" />
     <Compile Include="Activities\LoginActivity.cs" />
     <Compile Include="Activities\MapActivity.cs" />
     <Compile Include="Activities\RegisterActivity.cs" />
@@ -92,6 +96,12 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Map.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\GroupsMenu.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CreateGroup.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
