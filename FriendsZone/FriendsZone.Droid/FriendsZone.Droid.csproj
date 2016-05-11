@@ -104,7 +104,10 @@
     <AndroidResource Include="Resources\layout\CreateGroup.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\YourGroups.axml">
+    <AndroidResource Include="Resources\layout\GroupList.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SearchGroup.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

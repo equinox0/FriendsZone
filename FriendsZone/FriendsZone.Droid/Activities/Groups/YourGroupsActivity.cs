@@ -27,9 +27,9 @@ namespace FriendsZone.Droid.Activities.Groups
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.YourGroups);
+            SetContentView(Resource.Layout.GroupList);
 
-            listViewYourGroups = FindViewById<ListView>(Resource.Id.listViewYouGroups);
+            listViewYourGroups = FindViewById<ListView>(Resource.Id.listViewGroupList);
 
             getUserGroups();
 

@@ -181,44 +181,46 @@ containing a value of this type.
         public static final int icon=0x7f02001c;
     }
     public static final class id {
-        public static final int autoCompleteTextView1=0x7f070019;
-        public static final int button1=0x7f07001a;
-        public static final int button3=0x7f07000f;
+        public static final int autoCompleteTextView1=0x7f07001a;
+        public static final int button1=0x7f07001b;
+        public static final int button3=0x7f070010;
         public static final int buttonCreateGroup=0x7f070009;
-        public static final int buttonGroups=0x7f070012;
-        public static final int buttonLog=0x7f070013;
-        public static final int buttonLogin=0x7f07000d;
-        public static final int buttonMap=0x7f070011;
-        public static final int buttonRegister=0x7f07000e;
-        public static final int buttonSearchGroups=0x7f07000a;
-        public static final int buttonYourGroups=0x7f07000b;
+        public static final int buttonGroups=0x7f070013;
+        public static final int buttonLog=0x7f070014;
+        public static final int buttonLogin=0x7f07000e;
+        public static final int buttonMap=0x7f070012;
+        public static final int buttonRegister=0x7f07000f;
+        public static final int buttonSearchGroups=0x7f07000b;
+        public static final int buttonYourGroups=0x7f07000c;
         public static final int hybrid=0x7f070000;
-        public static final int labelStatus=0x7f070010;
-        public static final int listViewYouGroups=0x7f07001b;
-        public static final int map=0x7f070014;
+        public static final int labelStatus=0x7f070011;
+        public static final int listViewGroupList=0x7f07000a;
+        public static final int map=0x7f070015;
         public static final int none=0x7f070001;
         public static final int normal=0x7f070002;
         public static final int satellite=0x7f070003;
         public static final int spinnerColors=0x7f070008;
         public static final int terrain=0x7f070004;
         public static final int textDescription=0x7f070006;
-        public static final int textEmail=0x7f07000c;
+        public static final int textEmail=0x7f07000d;
+        public static final int textGroupName=0x7f07001c;
         public static final int textName=0x7f070005;
         public static final int textPassword=0x7f070007;
-        public static final int textPassword1=0x7f070015;
-        public static final int textPassword2=0x7f070016;
-        public static final int textSurname=0x7f070017;
-        public static final int textView1=0x7f070018;
+        public static final int textPassword1=0x7f070016;
+        public static final int textPassword2=0x7f070017;
+        public static final int textSurname=0x7f070018;
+        public static final int textView1=0x7f070019;
     }
     public static final class layout {
         public static final int creategroup=0x7f030000;
-        public static final int groupsmenu=0x7f030001;
-        public static final int login=0x7f030002;
-        public static final int main=0x7f030003;
-        public static final int map=0x7f030004;
-        public static final int register=0x7f030005;
-        public static final int resetpassword=0x7f030006;
-        public static final int yourgroups=0x7f030007;
+        public static final int grouplist=0x7f030001;
+        public static final int groupsmenu=0x7f030002;
+        public static final int login=0x7f030003;
+        public static final int main=0x7f030004;
+        public static final int map=0x7f030005;
+        public static final int register=0x7f030006;
+        public static final int resetpassword=0x7f030007;
+        public static final int searchgroup=0x7f030008;
     }
     public static final class string {
         public static final int app_name=0x7f05001a;

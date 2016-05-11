@@ -30,7 +30,8 @@ C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZon
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\android\bin\org.friendszone.apk
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\groupsmenu.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\creategroup.xml
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\yourgroups.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.dll.mdb
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\grouplist.xml
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\searchgroup.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\FriendsZone.Droid.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.Droid.dll.mdb
