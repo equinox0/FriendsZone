@@ -39,7 +39,7 @@ namespace FriendsZone.Droid.Activities.Groups
         private void getUserGroups()
         {
             string url = string.Format("http://www.friendszone.cba.pl/api/get_user_groups.php?user={0}",
-                    this.GetSharedPreferences("User.data", FileCreationMode.Private).GetString("Email", "");
+                    this.GetSharedPreferences("User.data", FileCreationMode.Private).GetString("Email", ""));
 
             HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
             request.Method = "GET";
@@ -56,22 +56,11 @@ namespace FriendsZone.Droid.Activities.Groups
         {
             Helpers.JsonMsg jsonMsg = JsonConvert.DeserializeObject<Helpers.JsonMsg>(json);
 
-            switch (jsonMsg.msg)
-            {
-                case "error-server":
-                    Toast.MakeText(
-                        this,
-                        "B³¹d serwera",
-                        ToastLength.Long).Show();
-                    break;
-                default:
-                    data = JsonConvert.DeserializeObject<List<Group>>(jsonMsg.msg);
-                    Toast.MakeText(
-                        this,
-                        "Wczytano twoje grupy",
-                        ToastLength.Long).Show();
-                    break;
-            }
+            data = JsonConvert.DeserializeObject<List<Group>>(jsonMsg.msg);
+            Toast.MakeText(
+                this,
+                "Wczytano twoje grupy",
+                ToastLength.Long).Show();
         }
     }
 }
