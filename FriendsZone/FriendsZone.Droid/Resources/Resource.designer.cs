@@ -290,6 +290,9 @@ namespace FriendsZone.Droid
 			// aapt resource value: 0x7f070010
 			public const int labelStatus = 2131165200;
 			
+			// aapt resource value: 0x7f07001b
+			public const int listViewYouGroups = 2131165211;
+			
 			// aapt resource value: 0x7f070014
 			public const int map = 2131165204;
 			
@@ -365,6 +368,9 @@ namespace FriendsZone.Droid
 			
 			// aapt resource value: 0x7f030006
 			public const int ResetPassword = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int YourGroups = 2130903047;
 			
 			static Layout()
 			{

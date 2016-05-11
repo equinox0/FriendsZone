@@ -194,6 +194,7 @@ containing a value of this type.
         public static final int buttonYourGroups=0x7f07000b;
         public static final int hybrid=0x7f070000;
         public static final int labelStatus=0x7f070010;
+        public static final int listViewYouGroups=0x7f07001b;
         public static final int map=0x7f070014;
         public static final int none=0x7f070001;
         public static final int normal=0x7f070002;
@@ -217,6 +218,7 @@ containing a value of this type.
         public static final int map=0x7f030004;
         public static final int register=0x7f030005;
         public static final int resetpassword=0x7f030006;
+        public static final int yourgroups=0x7f030007;
     }
     public static final class string {
         public static final int app_name=0x7f05001a;

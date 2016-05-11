@@ -21,7 +21,6 @@ C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZon
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\SQLite-net.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\SQLitePCL.raw.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\SQLite-net.dll.mdb
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\GooglePlayServicesFroyoLib.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\map.xml
@@ -31,5 +30,7 @@ C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZon
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\android\bin\org.friendszone.apk
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\groupsmenu.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\creategroup.xml
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\yourgroups.xml
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\FriendsZone.Droid.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.Droid.dll.mdb

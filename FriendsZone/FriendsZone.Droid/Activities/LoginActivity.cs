@@ -70,14 +70,14 @@ namespace FriendsZone.Droid.Activities
                     });
                     break;
                 default:
-                    Common.Users user = JsonConvert.DeserializeObject<Common.Users>(jsonMsg.msg);
+                    Models.Users user = JsonConvert.DeserializeObject<Models.Users>(jsonMsg.msg);
                     loginUser(user);
                     Finish();
                     break;
             }
         }
 
-        private void loginUser(Common.Users user)
+        private void loginUser(Models.Users user)
         {
             var prefs = this.GetSharedPreferences("User.data", FileCreationMode.Private);
             var editor = prefs.Edit();

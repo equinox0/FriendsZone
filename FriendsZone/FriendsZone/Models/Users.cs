@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FriendsZone.Common
+namespace FriendsZone.Models
 {
     public class Users
     {
