@@ -8,6 +8,11 @@
 package com.google.android.gms;
 
 public final class R {
+    public static final class array {
+        /**  Yellow - 60.0 
+         */
+        public static int colors_array=0x7f060000;
+    }
     public static final class attr {
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
@@ -176,36 +181,46 @@ containing a value of this type.
         public static int icon=0x7f02001c;
     }
     public static final class id {
-        public static int autoCompleteTextView1=0x7f060006;
-        public static int button1=0x7f060008;
-        public static int button2=0x7f060009;
-        public static int button3=0x7f06000e;
-        public static int buttonLogin=0x7f06000c;
-        public static int buttonLogout=0x7f060011;
-        public static int buttonMap=0x7f060010;
-        public static int buttonRegister=0x7f06000d;
-        public static int hybrid=0x7f060000;
-        public static int labelStatus=0x7f06000f;
-        public static int none=0x7f060001;
-        public static int normal=0x7f060002;
-        public static int satellite=0x7f060003;
-        public static int terrain=0x7f060004;
-        public static int textEmail=0x7f06000a;
-        public static int textName=0x7f060014;
-        public static int textPassword=0x7f06000b;
-        public static int textPassword1=0x7f060012;
-        public static int textPassword2=0x7f060013;
-        public static int textSurname=0x7f060015;
-        public static int textView1=0x7f060005;
-        public static int view1=0x7f060007;
+        public static int autoCompleteTextView1=0x7f07001a;
+        public static int button1=0x7f07001b;
+        public static int button3=0x7f070010;
+        public static int buttonCreateGroup=0x7f070009;
+        public static int buttonGroups=0x7f070013;
+        public static int buttonLog=0x7f070014;
+        public static int buttonLogin=0x7f07000e;
+        public static int buttonMap=0x7f070012;
+        public static int buttonRegister=0x7f07000f;
+        public static int buttonSearchGroups=0x7f07000b;
+        public static int buttonYourGroups=0x7f07000c;
+        public static int hybrid=0x7f070000;
+        public static int labelStatus=0x7f070011;
+        public static int listViewGroupList=0x7f07000a;
+        public static int map=0x7f070015;
+        public static int none=0x7f070001;
+        public static int normal=0x7f070002;
+        public static int satellite=0x7f070003;
+        public static int spinnerColors=0x7f070008;
+        public static int terrain=0x7f070004;
+        public static int textDescription=0x7f070006;
+        public static int textEmail=0x7f07000d;
+        public static int textGroupName=0x7f07001c;
+        public static int textName=0x7f070005;
+        public static int textPassword=0x7f070007;
+        public static int textPassword1=0x7f070016;
+        public static int textPassword2=0x7f070017;
+        public static int textSurname=0x7f070018;
+        public static int textView1=0x7f070019;
     }
     public static final class layout {
-        public static int firstgroups=0x7f030000;
-        public static int login=0x7f030001;
-        public static int main=0x7f030002;
-        public static int map=0x7f030003;
-        public static int register=0x7f030004;
-        public static int resetpassword=0x7f030005;
+        public static int creategroup=0x7f030000;
+        public static int grouplist=0x7f030001;
+        public static int groupsmenu=0x7f030002;
+        public static int login=0x7f030003;
+        public static int main=0x7f030004;
+        public static int map=0x7f030005;
+        public static int register=0x7f030006;
+        public static int resetpassword=0x7f030007;
+        public static int searchgroup=0x7f030008;
     }
     public static final class string {
         public static int app_name=0x7f05001a;
@@ -232,6 +247,9 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static int auth_client_using_bad_version_title=0x7f050013;
+        public static int btn_login=0x7f05001c;
+        public static int btn_logout=0x7f05001d;
+        public static int color_spinner_prompt=0x7f05001e;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -300,6 +318,7 @@ containing a value of this type.
          */
         public static int common_signin_button_text_long=0x7f050012;
         public static int hello=0x7f050019;
+        public static int not_loged_in=0x7f05001b;
     }
     public static final class styleable {
         /** Attributes that can be used with a MapAttrs.

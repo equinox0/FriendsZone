@@ -251,50 +251,71 @@ namespace FriendsZone.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07001a
-			public const int autoCompleteTextView1 = 2131165210;
+			// aapt resource value: 0x7f070023
+			public const int autoCompleteTextView1 = 2131165219;
 			
-			// aapt resource value: 0x7f07001b
-			public const int button1 = 2131165211;
+			// aapt resource value: 0x7f070024
+			public const int button1 = 2131165220;
 			
-			// aapt resource value: 0x7f070010
-			public const int button3 = 2131165200;
+			// aapt resource value: 0x7f070019
+			public const int button3 = 2131165209;
 			
 			// aapt resource value: 0x7f070009
 			public const int buttonCreateGroup = 2131165193;
 			
-			// aapt resource value: 0x7f070013
-			public const int buttonGroups = 2131165203;
-			
-			// aapt resource value: 0x7f070014
-			public const int buttonLog = 2131165204;
-			
-			// aapt resource value: 0x7f07000e
-			public const int buttonLogin = 2131165198;
-			
-			// aapt resource value: 0x7f070012
-			public const int buttonMap = 2131165202;
-			
-			// aapt resource value: 0x7f07000f
-			public const int buttonRegister = 2131165199;
-			
-			// aapt resource value: 0x7f07000b
-			public const int buttonSearchGroups = 2131165195;
+			// aapt resource value: 0x7f07001c
+			public const int buttonGroups = 2131165212;
 			
 			// aapt resource value: 0x7f07000c
-			public const int buttonYourGroups = 2131165196;
+			public const int buttonJoinGroup = 2131165196;
+			
+			// aapt resource value: 0x7f070012
+			public const int buttonLeaveGroup = 2131165202;
+			
+			// aapt resource value: 0x7f07001d
+			public const int buttonLog = 2131165213;
+			
+			// aapt resource value: 0x7f070017
+			public const int buttonLogin = 2131165207;
+			
+			// aapt resource value: 0x7f07001b
+			public const int buttonMap = 2131165211;
+			
+			// aapt resource value: 0x7f070011
+			public const int buttonMemberList = 2131165201;
+			
+			// aapt resource value: 0x7f070018
+			public const int buttonRegister = 2131165208;
+			
+			// aapt resource value: 0x7f07000f
+			public const int buttonSave = 2131165199;
+			
+			// aapt resource value: 0x7f070014
+			public const int buttonSearchGroups = 2131165204;
+			
+			// aapt resource value: 0x7f070010
+			public const int buttonSpotList = 2131165200;
+			
+			// aapt resource value: 0x7f070015
+			public const int buttonYourGroups = 2131165205;
 			
 			// aapt resource value: 0x7f070000
 			public const int hybrid = 2131165184;
 			
-			// aapt resource value: 0x7f070011
-			public const int labelStatus = 2131165201;
+			// aapt resource value: 0x7f07000b
+			public const int labelGroupDescription = 2131165195;
 			
 			// aapt resource value: 0x7f07000a
-			public const int listViewGroupList = 2131165194;
+			public const int labelGroupName = 2131165194;
 			
-			// aapt resource value: 0x7f070015
-			public const int map = 2131165205;
+			// aapt resource value: 0x7f07001a
+			public const int labelStatus = 2131165210;
+			
+			// aapt resource value: 0x7f070013
+			public const int listViewGroupList = 2131165203;
+			
+			// aapt resource value: 0x7f07001e
+			public const int map = 2131165214;
 			
 			// aapt resource value: 0x7f070001
 			public const int none = 2131165185;
@@ -314,11 +335,14 @@ namespace FriendsZone.Droid
 			// aapt resource value: 0x7f070006
 			public const int textDescription = 2131165190;
 			
-			// aapt resource value: 0x7f07000d
-			public const int textEmail = 2131165197;
+			// aapt resource value: 0x7f070016
+			public const int textEmail = 2131165206;
 			
-			// aapt resource value: 0x7f07001c
-			public const int textGroupName = 2131165212;
+			// aapt resource value: 0x7f07000e
+			public const int textGroupDescription = 2131165198;
+			
+			// aapt resource value: 0x7f07000d
+			public const int textGroupName = 2131165197;
 			
 			// aapt resource value: 0x7f070005
 			public const int textName = 2131165189;
@@ -326,17 +350,17 @@ namespace FriendsZone.Droid
 			// aapt resource value: 0x7f070007
 			public const int textPassword = 2131165191;
 			
-			// aapt resource value: 0x7f070016
-			public const int textPassword1 = 2131165206;
+			// aapt resource value: 0x7f07001f
+			public const int textPassword1 = 2131165215;
 			
-			// aapt resource value: 0x7f070017
-			public const int textPassword2 = 2131165207;
+			// aapt resource value: 0x7f070020
+			public const int textPassword2 = 2131165216;
 			
-			// aapt resource value: 0x7f070018
-			public const int textSurname = 2131165208;
+			// aapt resource value: 0x7f070021
+			public const int textSurname = 2131165217;
 			
-			// aapt resource value: 0x7f070019
-			public const int textView1 = 2131165209;
+			// aapt resource value: 0x7f070022
+			public const int textView1 = 2131165218;
 			
 			static Id()
 			{
@@ -355,28 +379,34 @@ namespace FriendsZone.Droid
 			public const int CreateGroup = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int GroupList = 2130903041;
+			public const int GroupDetailsGuest = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int GroupsMenu = 2130903042;
+			public const int GroupDetailsMember = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Login = 2130903043;
+			public const int GroupList = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
+			public const int GroupsMenu = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Map = 2130903045;
+			public const int Login = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Register = 2130903046;
+			public const int Main = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int ResetPassword = 2130903047;
+			public const int Map = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int SearchGroup = 2130903048;
+			public const int Register = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int ResetPassword = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int SearchGroup = 2130903050;
 			
 			static Layout()
 			{

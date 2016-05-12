@@ -1,7 +1,6 @@
 
 
 using Android.App;
-using Android.Content;
 using Android.OS;
 using Android.Widget;
 using FriendsZone.Models;
@@ -11,7 +10,8 @@ using System;
 using System.IO;
 using System.Net;
 using System.Text;
-using System.Threading;
+using static Android.Widget.AdapterView;
+using Android.Content;
 
 namespace FriendsZone.Droid.Activities.Groups
 {
@@ -20,7 +20,6 @@ namespace FriendsZone.Droid.Activities.Groups
     {
         EditText textToSearch;
         ListView listViewFoundGroups;
-        List<Group> data;
 
         ArrayAdapter adapter;
 
@@ -37,20 +36,39 @@ namespace FriendsZone.Droid.Activities.Groups
 
             listViewFoundGroups.Adapter = adapter;
 
+            listViewFoundGroups.ItemClick += (object sender, ItemClickEventArgs e) =>
+            {
+                string selectedJson = JsonConvert.SerializeObject(listViewFoundGroups.GetItemAtPosition(e.Position).Cast<Group>());
+                Intent detailIntent = new Intent(this, typeof(GroupDetailsGuestActivity));
+                detailIntent.PutExtra("GROUP_JSON", selectedJson);
+                StartActivity(detailIntent);
+            };
+
             textToSearch = FindViewById<EditText>(Resource.Id.textGroupName);
 
             textToSearch.TextChanged += delegate
             {
-                if (String.IsNullOrWhiteSpace(textToSearch.Text)) return; 
+                if (String.IsNullOrWhiteSpace(textToSearch.Text))
+                {
+                    adapter.Clear();
+                    return;
+                }
                 searchGroupsByName(textToSearch.Text);
             };
         }
 
+        protected override void OnResume()
+        {
+            base.OnResume();
+            textToSearch.Text = "";
+            adapter.Clear();
+        }
 
         private void searchGroupsByName(string name)
         {
-            string url = string.Format("http://www.friendszone.cba.pl/api/search_groups.php?name={0}",
-                    name);
+            string url = string.Format("http://www.friendszone.cba.pl/api/search_groups.php?name={0}&uid={1}",
+                    name,
+                    this.GetSharedPreferences("User.data", FileCreationMode.Private).GetString("Email", ""));
 
             HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
             request.Method = "GET";
@@ -70,6 +88,15 @@ namespace FriendsZone.Droid.Activities.Groups
             adapter.Clear();
 
             adapter.AddAll(JsonConvert.DeserializeObject<List<Group>>(jsonMsg.msg));
+        }
+    }
+
+    public static class ObjectTypeHelper
+    {
+        public static T Cast<T>(this Java.Lang.Object obj) where T : class
+        {
+            var propertyInfo = obj.GetType().GetProperty("Instance");
+            return propertyInfo == null ? null : propertyInfo.GetValue(obj, null) as T;
         }
     }
 }

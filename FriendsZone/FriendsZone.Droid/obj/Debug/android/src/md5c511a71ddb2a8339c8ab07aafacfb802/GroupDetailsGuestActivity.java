@@ -1,7 +1,7 @@
-package md57d71a28de70112b3d338c1ad6194a120;
+package md5c511a71ddb2a8339c8ab07aafacfb802;
 
 
-public class GroupsMenuActivity
+public class GroupDetailsGuestActivity
 	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
@@ -11,15 +11,15 @@ public class GroupsMenuActivity
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("FriendsZone.Droid.Activities.GroupsMenuActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", GroupsMenuActivity.class, __md_methods);
+		mono.android.Runtime.register ("FriendsZone.Droid.Activities.Groups.GroupDetailsGuestActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", GroupDetailsGuestActivity.class, __md_methods);
 	}
 
 
-	public GroupsMenuActivity () throws java.lang.Throwable
+	public GroupDetailsGuestActivity () throws java.lang.Throwable
 	{
 		super ();
-		if (getClass () == GroupsMenuActivity.class)
-			mono.android.TypeManager.Activate ("FriendsZone.Droid.Activities.GroupsMenuActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == GroupDetailsGuestActivity.class)
+			mono.android.TypeManager.Activate ("FriendsZone.Droid.Activities.Groups.GroupDetailsGuestActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

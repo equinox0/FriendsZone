@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\Groups\CreateGroupActivity.cs" />
+    <Compile Include="Activities\Groups\GroupDetailsGuestActivity.cs" />
     <Compile Include="Activities\Groups\GroupsMenuActivity.cs" />
     <Compile Include="Activities\Groups\SearchGroupsActivity.cs" />
     <Compile Include="Activities\Groups\YourGroupsActivity.cs" />
@@ -110,6 +111,12 @@
     <AndroidResource Include="Resources\layout\SearchGroup.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\GroupDetailsGuest.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\GroupDetailsMember.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -130,8 +137,6 @@
       <Version>7.0.1</Version>
     </XamarinComponentReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

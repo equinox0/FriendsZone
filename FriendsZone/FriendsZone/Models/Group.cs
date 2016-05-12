@@ -1,8 +1,10 @@
-﻿namespace FriendsZone.Models
+﻿using System;
+
+namespace FriendsZone.Models
 {
     public class Group
     {
-        public int Id { get; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public string Password { get; set; }
