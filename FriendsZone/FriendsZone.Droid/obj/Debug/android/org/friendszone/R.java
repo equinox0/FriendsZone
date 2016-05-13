@@ -185,6 +185,7 @@ containing a value of this type.
         public static final int button1=0x7f070024;
         public static final int button3=0x7f070019;
         public static final int buttonCreateGroup=0x7f070009;
+        public static final int buttonDelete=0x7f070027;
         public static final int buttonGroups=0x7f07001c;
         public static final int buttonJoinGroup=0x7f07000c;
         public static final int buttonLeaveGroup=0x7f070012;
@@ -206,6 +207,7 @@ containing a value of this type.
         public static final int none=0x7f070001;
         public static final int normal=0x7f070002;
         public static final int satellite=0x7f070003;
+        public static final int spinner1=0x7f070026;
         public static final int spinnerColors=0x7f070008;
         public static final int terrain=0x7f070004;
         public static final int textDescription=0x7f070006;
@@ -232,6 +234,7 @@ containing a value of this type.
         public static final int register=0x7f030008;
         public static final int resetpassword=0x7f030009;
         public static final int searchitemlist=0x7f03000a;
+        public static final int spotdetails=0x7f03000b;
     }
     public static final class string {
         public static final int app_name=0x7f05001a;
