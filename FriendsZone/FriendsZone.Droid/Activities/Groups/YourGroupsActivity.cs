@@ -13,6 +13,7 @@ using FriendsZone.Models;
 using Newtonsoft.Json;
 using System.Net;
 using System.IO;
+using static Android.Widget.AdapterView;
 
 namespace FriendsZone.Droid.Activities.Groups
 {
@@ -20,25 +21,42 @@ namespace FriendsZone.Droid.Activities.Groups
     public class YourGroupsActivity : Activity
     {
         ListView listViewYourGroups;
-        List<Group> data;
+
+        ArrayAdapter adapter;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.GroupList);
+            SetContentView(Resource.Layout.ItemList);
 
-            listViewYourGroups = FindViewById<ListView>(Resource.Id.listViewGroupList);
+            listViewYourGroups = FindViewById<ListView>(Resource.Id.listViewItemList);
+
+            adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1);
+
+            listViewYourGroups.Adapter = adapter;
 
             getUserGroups();
 
-            listViewYourGroups.Adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, data);
+            listViewYourGroups.ItemClick += (object sender, ItemClickEventArgs e) =>
+            {
+                string selectedJson = JsonConvert.SerializeObject(listViewYourGroups.GetItemAtPosition(e.Position).Cast<Group>());
+                Intent detailIntent = new Intent(this, typeof(GroupDetailsMemberActivity));
+                detailIntent.PutExtra("GROUP_JSON", selectedJson);
+                StartActivity(detailIntent);
+            };
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            getUserGroups();
         }
 
         private void getUserGroups()
         {
-            string url = string.Format("http://www.friendszone.cba.pl/api/get_user_groups.php?user={0}",
+            string url = string.Format("http://www.friendszone.cba.pl/api/get_user_groups.php?uid={0}",
                     this.GetSharedPreferences("User.data", FileCreationMode.Private).GetString("Email", ""));
 
             HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
@@ -56,7 +74,8 @@ namespace FriendsZone.Droid.Activities.Groups
         {
             Helpers.JsonMsg jsonMsg = JsonConvert.DeserializeObject<Helpers.JsonMsg>(json);
 
-            data = JsonConvert.DeserializeObject<List<Group>>(jsonMsg.msg);
+            adapter.Clear();
+            adapter.AddAll(JsonConvert.DeserializeObject<List<Group>>(jsonMsg.msg));
             Toast.MakeText(
                 this,
                 "Wczytano twoje grupy",

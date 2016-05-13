@@ -28,11 +28,11 @@ namespace FriendsZone.Droid.Activities.Groups
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.SearchGroup);
+            SetContentView(Resource.Layout.SearchItemList);
 
             adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1);
 
-            listViewFoundGroups = FindViewById<ListView>(Resource.Id.listViewGroupList);
+            listViewFoundGroups = FindViewById<ListView>(Resource.Id.listViewItemList);
 
             listViewFoundGroups.Adapter = adapter;
 
@@ -44,7 +44,7 @@ namespace FriendsZone.Droid.Activities.Groups
                 StartActivity(detailIntent);
             };
 
-            textToSearch = FindViewById<EditText>(Resource.Id.textGroupName);
+            textToSearch = FindViewById<EditText>(Resource.Id.textToSearch);
 
             textToSearch.TextChanged += delegate
             {

@@ -7,9 +7,3 @@ C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZon
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\bin\Debug\FriendsZone.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\obj\Debug\FriendsZone.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\bin\Debug\FriendsZone.dll.mdb
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\obj\Debug\FriendsZone.dll.mdb
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\bin\Debug\FriendsZone.dll.mdb
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\obj\Debug\FriendsZone.dll.mdb
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\bin\Debug\FriendsZone.dll.mdb
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\obj\Debug\FriendsZone.dll.mdb
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone\bin\Debug\FriendsZone.dll.mdb

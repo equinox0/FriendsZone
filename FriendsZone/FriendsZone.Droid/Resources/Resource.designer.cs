@@ -290,14 +290,14 @@ namespace FriendsZone.Droid
 			// aapt resource value: 0x7f07000f
 			public const int buttonSave = 2131165199;
 			
-			// aapt resource value: 0x7f070014
-			public const int buttonSearchGroups = 2131165204;
+			// aapt resource value: 0x7f070013
+			public const int buttonSearchGroups = 2131165203;
 			
 			// aapt resource value: 0x7f070010
 			public const int buttonSpotList = 2131165200;
 			
-			// aapt resource value: 0x7f070015
-			public const int buttonYourGroups = 2131165205;
+			// aapt resource value: 0x7f070014
+			public const int buttonYourGroups = 2131165204;
 			
 			// aapt resource value: 0x7f070000
 			public const int hybrid = 2131165184;
@@ -311,8 +311,8 @@ namespace FriendsZone.Droid
 			// aapt resource value: 0x7f07001a
 			public const int labelStatus = 2131165210;
 			
-			// aapt resource value: 0x7f070013
-			public const int listViewGroupList = 2131165203;
+			// aapt resource value: 0x7f070015
+			public const int listViewItemList = 2131165205;
 			
 			// aapt resource value: 0x7f07001e
 			public const int map = 2131165214;
@@ -359,6 +359,9 @@ namespace FriendsZone.Droid
 			// aapt resource value: 0x7f070021
 			public const int textSurname = 2131165217;
 			
+			// aapt resource value: 0x7f070025
+			public const int textToSearch = 2131165221;
+			
 			// aapt resource value: 0x7f070022
 			public const int textView1 = 2131165218;
 			
@@ -385,10 +388,10 @@ namespace FriendsZone.Droid
 			public const int GroupDetailsMember = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int GroupList = 2130903043;
+			public const int GroupsMenu = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int GroupsMenu = 2130903044;
+			public const int ItemList = 2130903044;
 			
 			// aapt resource value: 0x7f030005
 			public const int Login = 2130903045;
@@ -406,7 +409,7 @@ namespace FriendsZone.Droid
 			public const int ResetPassword = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int SearchGroup = 2130903050;
+			public const int SearchItemList = 2130903050;
 			
 			static Layout()
 			{

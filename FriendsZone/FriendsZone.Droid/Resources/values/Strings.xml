@@ -8,14 +8,10 @@
   
   <string name="color_spinner_prompt">Wybierz kolor</string>
   <string-array name="colors_array">
-    <item>Lazur</item> <!-- Azure - 210.0 -->
     <item>Niebieski</item> <!-- Blue - 240 -->
-    <item>Cyjan</item> <!-- Cyan - 180.0 -->
     <item>Zielony</item> <!-- Green - 120.0 -->
-    <item>Magenta</item> <!-- Magenta - 300.0 -->
     <item>Pomarańczowy</item> <!-- Orange - 30.0 -->
     <item>Czerwony</item> <!-- Red - 0.0 -->
-    <item>Różowy</item> <!-- Rose - 330.0 -->
     <item>Fioletowy</item> <!-- Violet - 270.0 -->
     <item>Żółty</item> <!-- Yellow - 60.0 -->
   </string-array>

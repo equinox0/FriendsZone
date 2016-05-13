@@ -23,6 +23,8 @@ namespace FriendsZone.Droid.Activities.Groups
         TextView labelDescription;
         Button buttonJoinGroup;
 
+        EditText textPassword;
+
         Group group;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -45,8 +47,37 @@ namespace FriendsZone.Droid.Activities.Groups
             labelName.Text = group.Name;
             labelDescription.Text = group.Description;
 
+            if(!String.IsNullOrWhiteSpace(group.Password))
+            {
+                buttonJoinGroup.Enabled = false;
+                textPassword = FindViewById<EditText>(Resource.Id.textPassword);
+                textPassword.Visibility = ViewStates.Visible;
+
+                textPassword.AfterTextChanged += delegate
+                {
+                    if(String.IsNullOrEmpty(textPassword.Text))
+                    {
+                        buttonJoinGroup.Enabled = false;
+                    } else
+                    {
+                        buttonJoinGroup.Enabled = true;
+                    }
+                };
+            }
+
             buttonJoinGroup.Click += delegate
             {
+                if (textPassword != null)
+                {
+                    if (textPassword.Text != group.Password)
+                    {
+                        Toast.MakeText(
+                        this,
+                        "B³êdne has³o",
+                        ToastLength.Long).Show();
+                        return;
+                    }
+                }
                 string url = string.Format("http://www.friendszone.cba.pl/api/join_group.php?gid={0}&uid={1}",
                     group.Id,
                     this.GetSharedPreferences("User.data", FileCreationMode.Private).GetString("Email", ""));

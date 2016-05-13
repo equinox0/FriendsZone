@@ -21,8 +21,6 @@ C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZon
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\map.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\groupsmenu.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\creategroup.xml
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\grouplist.xml
-C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\searchgroup.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\main.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\values\strings.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\drawable-hdpi\icon.png
@@ -34,6 +32,8 @@ C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZon
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\uploadflags.txt
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\groupdetailsguest.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\groupdetailsmember.xml
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\itemlist.xml
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\searchitemlist.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\FriendsZone.Droid.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.Droid.dll.mdb

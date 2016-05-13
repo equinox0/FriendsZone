@@ -29,6 +29,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/textGroupDescription"
         android:visibility="gone" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPassword"
+        android:hint="Hasło"
+        android:visibility="gone" />
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

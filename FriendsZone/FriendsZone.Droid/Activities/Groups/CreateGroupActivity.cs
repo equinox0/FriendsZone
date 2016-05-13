@@ -12,6 +12,7 @@ using Android.Widget;
 using Newtonsoft.Json;
 using System.Net;
 using System.IO;
+using FriendsZone.Helpers;
 
 namespace FriendsZone.Droid.Activities.Groups
 {
@@ -43,7 +44,7 @@ namespace FriendsZone.Droid.Activities.Groups
                 string name = FindViewById<EditText>(Resource.Id.textName).Text;
                 string description = FindViewById<EditText>(Resource.Id.textDescription).Text;
                 string password = FindViewById<EditText>(Resource.Id.textPassword).Text;
-                float color = this.parseColor(FindViewById<Spinner>(Resource.Id.spinnerColors).SelectedItem.ToString());
+                float color = ColorParser.parseColorToFloat(FindViewById<Spinner>(Resource.Id.spinnerColors).SelectedItem.ToString());
 
                 string user = this.GetSharedPreferences("User.data", FileCreationMode.Private).GetString("Email", "");
 
@@ -99,33 +100,5 @@ namespace FriendsZone.Droid.Activities.Groups
             }
         }
 
-        private float parseColor(string colorTxt)
-        {
-            switch(colorTxt)
-            {
-                case "Lazur":
-                    return 210.0f;
-                case "Niebieski":
-                    return 240.0f;
-                case "Cyjan":
-                    return 180.0f;
-                case "Zielony":
-                    return 120.0f;
-                case "Magenta":
-                    return 300.0f;
-                case "Pomarañczowy":
-                    return 30.0f;
-                case "Czerwony":
-                    return 0.0f;
-                case "Ró¿owy":
-                    return 330.0f;
-                case "Fioletowy":
-                    return 270.0f;
-                case "¯ó³ty":
-                    return 60.0f;
-                default:
-                    return 0.0f;
-            }
-        }
     }
 }

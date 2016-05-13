@@ -35,7 +35,10 @@
     <activity android:label="Rejestracja" android:name="md57d71a28de70112b3d338c1ad6194a120.RegisterActivity" />
     <activity android:label="Stwórz grupę" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.CreateGroupActivity" />
     <activity android:label="GroupDetailsGuestActivity" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.GroupDetailsGuestActivity" />
+    <activity android:label="GroupDetailsMemberActivity" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.GroupDetailsMemberActivity" />
+    <activity android:label="Lista użytkowników" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.GroupMemberListActivity" />
     <activity android:label="Grupy" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.GroupsMenuActivity" />
+    <activity android:label="Lista miejsc" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.GroupSpotsListActivity" />
     <activity android:label="Szukaj grup" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.SearchGroupsActivity" />
     <activity android:label="Twoje grupy" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.YourGroupsActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="org.friendszone.mono.MonoRuntimeProvider.__mono_init__" />

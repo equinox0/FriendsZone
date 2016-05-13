@@ -31,8 +31,10 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Helpers\ColorParser.cs" />
     <Compile Include="Helpers\JsonMsg.cs" />
     <Compile Include="Models\Group.cs" />
+    <Compile Include="Models\Spot.cs" />
     <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

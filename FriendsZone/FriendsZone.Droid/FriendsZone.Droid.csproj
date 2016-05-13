@@ -70,7 +70,10 @@
   <ItemGroup>
     <Compile Include="Activities\Groups\CreateGroupActivity.cs" />
     <Compile Include="Activities\Groups\GroupDetailsGuestActivity.cs" />
+    <Compile Include="Activities\Groups\GroupDetailsMemberActivity.cs" />
+    <Compile Include="Activities\Groups\GroupMemberListActivity.cs" />
     <Compile Include="Activities\Groups\GroupsMenuActivity.cs" />
+    <Compile Include="Activities\Groups\GroupSpotsListActivity.cs" />
     <Compile Include="Activities\Groups\SearchGroupsActivity.cs" />
     <Compile Include="Activities\Groups\YourGroupsActivity.cs" />
     <Compile Include="Activities\LoginActivity.cs" />
@@ -105,10 +108,10 @@
     <AndroidResource Include="Resources\layout\CreateGroup.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\GroupList.axml">
+    <AndroidResource Include="Resources\layout\ItemList.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\SearchGroup.axml">
+    <AndroidResource Include="Resources\layout\SearchItemList.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\GroupDetailsGuest.axml">
