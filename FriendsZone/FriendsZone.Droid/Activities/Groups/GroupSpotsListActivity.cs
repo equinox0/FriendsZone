@@ -37,12 +37,20 @@ namespace FriendsZone.Droid.Activities.Groups
             listViewGroupSpots.Adapter = adapter;
 
             getGroupSpots();
+
+            listViewGroupSpots.ItemClick += (object sender, ItemClickEventArgs e) =>
+            {
+                string selectedJson = JsonConvert.SerializeObject(listViewGroupSpots.GetItemAtPosition(e.Position).Cast<Spot>());
+                Intent mapIntent = new Intent(this, typeof(MapActivity));
+                mapIntent.PutExtra("SPOT", selectedJson);
+                StartActivity(mapIntent);
+            };
         }
 
         private void getGroupSpots()
         {
             string url = string.Format("http://friendszone.cba.pl/api/get_group_spots.php?gid={0}",
-                    Intent.GetIntExtra("GROUP_ID", 0));
+                    Intent.GetIntExtra("GROUP_ID", -1));
 
             Console.WriteLine(url);
 

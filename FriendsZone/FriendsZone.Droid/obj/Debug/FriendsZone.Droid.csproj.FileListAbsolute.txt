@@ -34,6 +34,7 @@ C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZon
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\groupdetailsmember.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\itemlist.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\searchitemlist.xml
+C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\res\layout\spotdetails.xml
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\obj\Debug\FriendsZone.Droid.dll.mdb
 C:\Users\Jan Kowalski\Desktop\FriendsZoneRepo\FriendsZone\FriendsZone\FriendsZone.Droid\bin\Debug\FriendsZone.Droid.dll.mdb
