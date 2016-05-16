@@ -73,7 +73,7 @@ namespace FriendsZone.Droid.Activities.Groups
         private void processResponse(String json)
         {
             Helpers.JsonMsg jsonMsg = JsonConvert.DeserializeObject<Helpers.JsonMsg>(json);
-
+            
             adapter.Clear();
             adapter.AddAll(JsonConvert.DeserializeObject<List<Group>>(jsonMsg.msg));
             Toast.MakeText(

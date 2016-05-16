@@ -43,6 +43,7 @@ namespace FriendsZone.Droid.Activities.Groups
                 string selectedJson = JsonConvert.SerializeObject(listViewGroupSpots.GetItemAtPosition(e.Position).Cast<Spot>());
                 Intent mapIntent = new Intent(this, typeof(MapActivity));
                 mapIntent.PutExtra("SPOT", selectedJson);
+                mapIntent.PutExtra("GROUP_ID", Intent.GetIntExtra("GROUP_ID", -1));
                 StartActivity(mapIntent);
             };
         }

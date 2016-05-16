@@ -207,8 +207,8 @@ containing a value of this type.
         public static final int none=0x7f070001;
         public static final int normal=0x7f070002;
         public static final int satellite=0x7f070003;
-        public static final int spinner1=0x7f070026;
         public static final int spinnerColors=0x7f070008;
+        public static final int spinnerGroups=0x7f070026;
         public static final int terrain=0x7f070004;
         public static final int textDescription=0x7f070006;
         public static final int textEmail=0x7f070016;

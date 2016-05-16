@@ -329,11 +329,11 @@ namespace FriendsZone.Droid
 			// aapt resource value: 0x7f070003
 			public const int satellite = 2131165187;
 			
-			// aapt resource value: 0x7f070026
-			public const int spinner1 = 2131165222;
-			
 			// aapt resource value: 0x7f070008
 			public const int spinnerColors = 2131165192;
+			
+			// aapt resource value: 0x7f070026
+			public const int spinnerGroups = 2131165222;
 			
 			// aapt resource value: 0x7f070004
 			public const int terrain = 2131165188;

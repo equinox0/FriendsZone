@@ -14,6 +14,10 @@ FriendsZone.Droid.Activities.RegisterActivity, FriendsZone.Droid;md57d71a28de701
 FriendsZone.Droid.Activities.RegisterActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
 FriendsZone.Droid.Activities.RegisterActivity;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
 friendszone.droid.activities.RegisterActivity;md57d71a28de70112b3d338c1ad6194a120.RegisterActivity
+FriendsZone.Droid.Activities.SpotDetailsActivity, FriendsZone.Droid;md57d71a28de70112b3d338c1ad6194a120.SpotDetailsActivity
+FriendsZone.Droid.Activities.SpotDetailsActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57d71a28de70112b3d338c1ad6194a120.SpotDetailsActivity
+FriendsZone.Droid.Activities.SpotDetailsActivity;md57d71a28de70112b3d338c1ad6194a120.SpotDetailsActivity
+friendszone.droid.activities.SpotDetailsActivity;md57d71a28de70112b3d338c1ad6194a120.SpotDetailsActivity
 FriendsZone.Droid.Activities.Groups.CreateGroupActivity, FriendsZone.Droid;md5c511a71ddb2a8339c8ab07aafacfb802.CreateGroupActivity
 FriendsZone.Droid.Activities.Groups.CreateGroupActivity, FriendsZone.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c511a71ddb2a8339c8ab07aafacfb802.CreateGroupActivity
 FriendsZone.Droid.Activities.Groups.CreateGroupActivity;md5c511a71ddb2a8339c8ab07aafacfb802.CreateGroupActivity

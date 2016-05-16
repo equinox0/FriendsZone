@@ -35,6 +35,7 @@
     <activity android:label="Zaloguj się" android:name="md57d71a28de70112b3d338c1ad6194a120.LoginActivity" />
     <activity android:label="Mapa" android:name="md57d71a28de70112b3d338c1ad6194a120.MapActivity" />
     <activity android:label="Rejestracja" android:name="md57d71a28de70112b3d338c1ad6194a120.RegisterActivity" />
+    <activity android:label="SpotDetailsActivity" android:name="md57d71a28de70112b3d338c1ad6194a120.SpotDetailsActivity" />
     <activity android:label="Stwórz grupę" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.CreateGroupActivity" />
     <activity android:label="GroupDetailsGuestActivity" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.GroupDetailsGuestActivity" />
     <activity android:label="GroupDetailsMemberActivity" android:name="md5c511a71ddb2a8339c8ab07aafacfb802.GroupDetailsMemberActivity" />

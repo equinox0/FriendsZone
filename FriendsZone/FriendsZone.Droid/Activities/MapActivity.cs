@@ -49,14 +49,32 @@ namespace FriendsZone.Droid.Activities
             if(String.IsNullOrEmpty(Intent.GetStringExtra("SPOT")))
             {
                 getUsersGroups();
+                map.AnimateCamera(CameraUpdateFactory.NewLatLngZoom(new LatLng(53.021219, 18.608724), 7));
             }
             else
             {
                 var destinySpot = JsonConvert.DeserializeObject<Spot>(Intent.GetStringExtra("SPOT"));
 
                 groupIdList.Add(destinySpot.gid);
-                map.AnimateCamera(CameraUpdateFactory.NewLatLngZoom(new LatLng(destinySpot.latitutde, destinySpot.longitude), 10));
+                map.AnimateCamera(CameraUpdateFactory.NewLatLngZoom(new LatLng(destinySpot.latitude, destinySpot.longitude), 20));
             }
+
+            map.MapLongClick += (object sender, GoogleMap.MapLongClickEventArgs e) =>
+            {
+                Console.WriteLine(String.Format("Lat: {0}, Long: {1}", e.P0.Latitude, e.P0.Longitude));
+                Intent spotDetailsIntent = new Intent(this, typeof(Activities.SpotDetailsActivity));
+                spotDetailsIntent.PutExtra("LAT", e.P0.Latitude);
+                spotDetailsIntent.PutExtra("LONG", e.P0.Longitude);
+                if(Intent.GetIntExtra("GROUP_ID", -1) != -1) {
+                    spotDetailsIntent.PutExtra("GROUP_ID", Intent.GetIntExtra("GROUP_ID", -1));
+                }
+                StartActivity(spotDetailsIntent);
+            };
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
 
             drawMarkers();
         }
@@ -94,7 +112,7 @@ namespace FriendsZone.Droid.Activities
                 foreach(Spot s in spotsList)
                 {
                     Marker marker = map.AddMarker(new MarkerOptions()
-                     .SetPosition(new LatLng(s.latitutde, s.longitude))
+                     .SetPosition(new LatLng(s.latitude, s.longitude))
                      .SetTitle(s.name)
                      .SetSnippet(s.description)
                      .InvokeIcon(BitmapDescriptorFactory
