@@ -23,7 +23,7 @@ namespace FriendsZone.Droid.Activities
         GoogleMap map;
 
         List<int> groupIdList;
-
+        List<KeyValuePair<Marker, int>> markerIds;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -70,12 +70,34 @@ namespace FriendsZone.Droid.Activities
                 }
                 StartActivity(spotDetailsIntent);
             };
+
+            map.InfoWindowClick += (object sender, GoogleMap.InfoWindowClickEventArgs e) =>
+            {
+                int spotId = -1;
+                foreach(KeyValuePair<Marker, int> kv in markerIds)
+                {
+                    if (e.P0.Equals(kv.Key)) spotId = kv.Value;
+                }
+
+                if(spotId == -1)
+                {
+                    Toast.MakeText(
+                        this,
+                        "B³¹d, Proszê zg³osiæ siê do Dominika",
+                        ToastLength.Long).Show();
+                    return;
+                }
+
+                Intent spotDetailsIntent = new Intent(this, typeof(Activities.SpotDetailsActivity));
+                spotDetailsIntent.PutExtra("SPOT_ID", spotId);
+                StartActivity(spotDetailsIntent);
+            };
         }
 
         protected override void OnResume()
         {
             base.OnResume();
-
+            Console.WriteLine("RESUME");
             drawMarkers();
         }
 
@@ -104,6 +126,8 @@ namespace FriendsZone.Droid.Activities
 
         private void drawMarkers()
         {
+            markerIds = new List<KeyValuePair<Marker, int>>();
+            map.Clear();
             foreach (int groupId in groupIdList)
             {
                 List<Spot> spotsList = getGroupSpots(groupId);
@@ -117,6 +141,8 @@ namespace FriendsZone.Droid.Activities
                      .SetSnippet(s.description)
                      .InvokeIcon(BitmapDescriptorFactory
                      .DefaultMarker(groupColor)));
+
+                    markerIds.Add(new KeyValuePair<Marker, int>(marker, s.id));
                 }
             }
         }

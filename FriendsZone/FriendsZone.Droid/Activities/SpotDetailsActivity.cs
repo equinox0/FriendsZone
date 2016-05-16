@@ -20,10 +20,12 @@ namespace FriendsZone.Droid.Activities
     public class SpotDetailsActivity : Activity
     {
         int groupId;
+        int spotId;
         List<Group> userGroups;
 
         Spinner spinnerGroups;
         Button buttonSave;
+        Button buttonDelete;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -58,57 +60,138 @@ namespace FriendsZone.Droid.Activities
                 spinnerGroups.Enabled = false;
             }
 
-            buttonSave = FindViewById<Button>(Resource.Id.buttonSave);
-            buttonSave.Click += delegate
+            spotId = Intent.GetIntExtra("SPOT_ID", -1);
+            if (spotId == -1)
             {
-                string name = FindViewById<EditText>(Resource.Id.textName).Text;
-                string des = FindViewById<EditText>(Resource.Id.textDescription).Text;
-                int groupId = adapter.GetItem(spinnerGroups.SelectedItemPosition).Id;
-                double lat = Intent.GetDoubleExtra("LAT", -1);
-                double lon = Intent.GetDoubleExtra("LONG", -1);
-                if(String.IsNullOrWhiteSpace(name) || String.IsNullOrWhiteSpace(des) || lat == -1 || lon == -1)
+                buttonSave = FindViewById<Button>(Resource.Id.buttonSave);
+                buttonSave.Click += delegate
                 {
-                    Toast.MakeText(
-                        this,
-                        "B³¹d przy dodawaniu miejsca",
-                        ToastLength.Long).Show();
-                    return;
-                }
+                    string name = FindViewById<EditText>(Resource.Id.textName).Text;
+                    string des = FindViewById<EditText>(Resource.Id.textDescription).Text;
+                    int groupId = adapter.GetItem(spinnerGroups.SelectedItemPosition).Id;
+                    double lat = Intent.GetDoubleExtra("LAT", -1);
+                    double lon = Intent.GetDoubleExtra("LONG", -1);
+                    if (String.IsNullOrWhiteSpace(name) || String.IsNullOrWhiteSpace(des) || lat == -1 || lon == -1)
+                    {
+                        Toast.MakeText(
+                            this,
+                            "B³¹d przy dodawaniu miejsca",
+                            ToastLength.Long).Show();
+                        return;
+                    }
 
-                string url = string.Format("http://www.friendszone.cba.pl/api/add_spot.php?name={0}&des={1}&lat={2}&lon={3}&gid={4}",
-                    name,
-                    des,
-                    lat,
-                    lon,
-                    groupId);
+                    string url = string.Format("http://www.friendszone.cba.pl/api/add_spot.php?name={0}&des={1}&lat={2}&lon={3}&gid={4}",
+                        name,
+                        des,
+                        lat,
+                        lon,
+                        groupId);
 
-                HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
-                request.Method = "GET";
+                    HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
+                    request.Method = "GET";
 
-                HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+                    HttpWebResponse response = request.GetResponse() as HttpWebResponse;
 
-                StreamReader reader = new StreamReader(response.GetResponseStream(), UTF8Encoding.UTF8);
-                String json = reader.ReadToEnd();
+                    StreamReader reader = new StreamReader(response.GetResponseStream(), UTF8Encoding.UTF8);
+                    String json = reader.ReadToEnd();
 
-                Helpers.JsonMsg jsonMsg = JsonConvert.DeserializeObject<Helpers.JsonMsg>(json);
+                    Helpers.JsonMsg jsonMsg = JsonConvert.DeserializeObject<Helpers.JsonMsg>(json);
 
-                if(jsonMsg.msg == "success")
+                    if (jsonMsg.msg == "success")
+                    {
+                        Toast.MakeText(
+                            this,
+                            "Pomyœlnie dodano nowe miejsce",
+                            ToastLength.Long).Show();
+                        Finish();
+                    }
+                    else if (jsonMsg.msg == "error-server")
+                    {
+                        Toast.MakeText(
+                            this,
+                            "B³¹d serwera",
+                            ToastLength.Long).Show();
+                        return;
+                    }
+                };
+            }
+            else
+            {
+                FindViewById<Button>(Resource.Id.buttonSave).Visibility = ViewStates.Gone;
+                buttonDelete = FindViewById<Button>(Resource.Id.buttonDelete);
+                buttonDelete.Visibility = ViewStates.Visible;
+
+                Spot spot = getSpotById(spotId);
+
+                var textName = FindViewById<EditText>(Resource.Id.textName);
+                textName.Text = spot.name;
+                textName.Enabled = false;
+
+                var textDescription = FindViewById<EditText>(Resource.Id.textDescription);
+                textDescription.Text = spot.description;
+                textDescription.Enabled = false;
+
+                Group currentSelectedGroup = new Group();
+                foreach (Group g in userGroups)
                 {
-                    Toast.MakeText(
-                        this,
-                        "Pomyœlnie dodano nowe miejsce",
-                        ToastLength.Long).Show();
-                    Finish();
+                    if (g.Id == groupId) currentSelectedGroup = g;
                 }
-                else if (jsonMsg.msg == "error-server")
+                spinnerGroups.SetSelection(adapter.GetPosition(currentSelectedGroup));
+                spinnerGroups.Enabled = false;
+
+                buttonDelete.Click += delegate
                 {
-                    Toast.MakeText(
-                        this,
-                        "B³¹d serwera",
-                        ToastLength.Long).Show();
-                    return;
-                }
-            };
+                    string url = string.Format("http://www.friendszone.cba.pl/api/delete_spot.php?sid={0}",
+                        spotId);
+
+                    HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
+                    request.Method = "GET";
+
+                    HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+
+                    StreamReader reader = new StreamReader(response.GetResponseStream(), UTF8Encoding.UTF8);
+                    String json = reader.ReadToEnd();
+
+                    Helpers.JsonMsg jsonMsg = JsonConvert.DeserializeObject<Helpers.JsonMsg>(json);
+
+                    if (jsonMsg.msg == "success")
+                    {
+                        Toast.MakeText(
+                            this,
+                            "Pomyœlnie usuniêto miejsce",
+                            ToastLength.Long).Show();
+                        Finish();
+                    }
+                    else if (jsonMsg.msg == "error-server")
+                    {
+                        Toast.MakeText(
+                            this,
+                            "B³¹d serwera",
+                            ToastLength.Long).Show();
+                        return;
+                    }
+                };
+            }
+        }
+
+        private Spot getSpotById(int spotId)
+        {
+            string url = string.Format("http://www.friendszone.cba.pl/api/get_spot.php?sid={0}",
+                        spotId);
+
+            HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
+            request.Method = "GET";
+
+            HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+
+            StreamReader reader = new StreamReader(response.GetResponseStream(), UTF8Encoding.UTF8);
+            String json = reader.ReadToEnd();
+
+            Helpers.JsonMsg jsonMsg = JsonConvert.DeserializeObject<Helpers.JsonMsg>(json);
+
+            Console.WriteLine(jsonMsg.msg);
+
+            return JsonConvert.DeserializeObject<Spot>(jsonMsg.msg);
         }
 
         // jeœli nie ma podanej grupy, pobierze wszystkie
