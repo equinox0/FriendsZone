@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <ListView x:Name="listViewYourGroupsList" HorizontalAlignment="Left" Height="620" Margin="10,10,0,0" VerticalAlignment="Top" Width="380"/>
+        <ListView x:Name="listViewYourGroupsList" HorizontalAlignment="Left" Height="620" Margin="10,10,0,0" VerticalAlignment="Top" Width="380" ItemClick="listViewYourGroupsList_ItemClick"/>
 
     </Grid>
 </Page>

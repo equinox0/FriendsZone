@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="FriendsZone.WinPhone.Pages.Groups.CreateDetailsGuestPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FriendsZone.WinPhone.Pages.Groups"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <PasswordBox x:Name="textPassword" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top" Width="380" PlaceholderText="Hasło" IsEnabled="False"/>
+        <Button x:Name="buttonJoinGroup" Content="Dołącz" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Width="380"/>
+        <TextBlock x:Name="labelName" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Nazwa" VerticalAlignment="Top" FontSize="18" Width="380"/>
+        <TextBlock x:Name="labelOpis" HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" Text="Opis" VerticalAlignment="Top" FontSize="16" />
+        <!-- SelectionChanged="labelOpis_SelectionChanged"/>-->
+
+    </Grid>
+</Page>
+

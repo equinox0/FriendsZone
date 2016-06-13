@@ -1,0 +1,2 @@
+E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\FriendsZone.WinPhone.csproj;neutral
+E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone\FriendsZone.csproj;neutral

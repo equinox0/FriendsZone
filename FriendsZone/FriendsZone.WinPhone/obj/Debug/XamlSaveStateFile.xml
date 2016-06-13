@@ -1,5 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <ReferenceAssembly PathName="c:\users\jan kowalski\desktop\friendszonerepo\friendszone\friendszone\friendszone\bin\debug\friendszone.dll" HashGuid="814c6973-c350-4e41-bc07-47311e13f573" />
+    <LocalAssembly PathName="e:\projekty\visual\aplikacje mobilne\friendszone\friendszone.winphone\obj\debug\intermediatexaml\friendszone.winphone.exe" HashGuid="b354094b-0b63-e74e-642e-52db3a5b9533" />
+    <ReferenceAssembly PathName="e:\projekty\visual\aplikacje mobilne\friendszone\friendszone\bin\debug\friendszone.dll" HashGuid="814c6973-c350-4e41-bc07-47311e13f573" />
+    <ReferenceAssembly PathName="e:\projekty\visual\aplikacje mobilne\packages\newtonsoft.json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\newtonsoft.json.dll" HashGuid="86223907-5808-be51-71b4-c872f8140e29" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

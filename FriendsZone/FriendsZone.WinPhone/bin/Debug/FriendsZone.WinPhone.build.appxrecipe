@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-579N5TS</Machine>
+    <WindowsUser>Rize</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8877204e-d7ab-4c2a-ba85-df930a47ce48</PackageIdentityName>
+    <IntermediateOutputPath>E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\FriendsZone.WinPhone.exe">
+      <PackagePath>FriendsZone.WinPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone\bin\Debug\FriendsZone.dll">
+      <PackagePath>FriendsZone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\FriendsZone.WinPhone.xr.xml">
+      <PackagePath>FriendsZone.WinPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\Groups\GroupDetailsGuestPage.xbf">
+      <PackagePath>Pages\Groups\GroupDetailsGuestPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\Groups\GroupDetailsMemberPage.xbf">
+      <PackagePath>Pages\Groups\GroupDetailsMemberPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\Groups\CreateGroupPage.xbf">
+      <PackagePath>Pages\Groups\CreateGroupPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\Groups\GroupMemberListPage.xbf">
+      <PackagePath>Pages\Groups\GroupMemberListPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\Groups\GroupMenuPage.xbf">
+      <PackagePath>Pages\Groups\GroupMenuPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\Groups\GroupSpotsListPage.xbf">
+      <PackagePath>Pages\Groups\GroupSpotsListPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\Groups\SearchGroupsPage.xbf">
+      <PackagePath>Pages\Groups\SearchGroupsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\Groups\YourGroupsPage.xbf">
+      <PackagePath>Pages\Groups\YourGroupsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\LoginPage.xbf">
+      <PackagePath>Pages\LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\MainPage.xbf">
+      <PackagePath>Pages\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\MapPage.xbf">
+      <PackagePath>Pages\MapPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\RegisterPage.xbf">
+      <PackagePath>Pages\RegisterPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\Pages\SpotDetails.xbf">
+      <PackagePath>Pages\SpotDetails.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projekty\Visual\Aplikacje Mobilne\FriendsZone\FriendsZone.WinPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

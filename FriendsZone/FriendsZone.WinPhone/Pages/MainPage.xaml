@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Nie jesteś zalogowany" FontSize="18" Width="250" Height="20" Margin="10,10,140,610"/>
         <Button x:Name="buttonMap" Content="Mapa" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="20" Margin="10,25,10,557"/>
-        <Button x:Name="buttonGroups" Content="Grupy" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="20" Margin="10,69,10,513"/>
-        <Button x:Name="buttonLog" Content="Zaloguj" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,113,10,469" Height="20"/>
+        <Button x:Name="buttonGroups" Content="Grupy" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="20" Margin="10,69,10,513" Click="buttonGroups_Click"/>
+        <Button x:Name="buttonLog" Content="Zaloguj" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,113,10,469" Height="20" Click="buttonLog_Click"/>
     </Grid>
 </Page>

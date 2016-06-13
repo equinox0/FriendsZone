@@ -35,5 +35,20 @@ namespace FriendsZone.WinPhone.Pages.Groups
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+        private void buttonSearchGroups_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SearchGroupsPage));
+        }
+
+        private void buttonYourGroups_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(YourGroupsPage));
+        }
+
+        private void buttonAddGroup_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CreateGroupPage));
+        }
     }
 }
